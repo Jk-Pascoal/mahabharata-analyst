@@ -11,8 +11,12 @@ export const mahabharataService = {
     async loadResources() {
         const promises = [];
         const t = Date.now();
-        if (!this.indexCache) promises.push(fetch(`/data/search_index.json?t=${t}`).then(r => r.json()).then(d => this.indexCache = d).catch(e => console.error("Index load failed", e)));
-        if (!this.fullDbCache) promises.push(fetch(`/data/full_character_database.json?t=${t}`).then(r => r.json()).then(d => this.fullDbCache = d).catch(e => console.error("Full DB load failed", e)));
+        const baseUrl = import.meta.env.BASE_URL;
+        // Ensure standard behavior whether baseUrl ends with slash or not
+        const prefix = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
+        if (!this.indexCache) promises.push(fetch(`${prefix}data/search_index.json?t=${t}`).then(r => r.json()).then(d => this.indexCache = d).catch(e => console.error("Index load failed", e)));
+        if (!this.fullDbCache) promises.push(fetch(`${prefix}data/full_character_database.json?t=${t}`).then(r => r.json()).then(d => this.fullDbCache = d).catch(e => console.error("Full DB load failed", e)));
         await Promise.all(promises);
     },
 
