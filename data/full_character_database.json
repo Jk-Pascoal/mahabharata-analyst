@@ -1,0 +1,1123 @@
+[
+    {
+        "id": "takshaka",
+        "name": "Takshaka",
+        "epithets": [
+            "Rei das Serpentes",
+            "Naga Raj"
+        ],
+        "lineage": {
+            "father": "Kashyapa",
+            "mother": "Kadru",
+            "clan": "Naga",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Khandava Forest",
+            "Naga Loka"
+        ],
+        "role": [
+            "Rei Naga",
+            "Assassino de Parikshit"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Veneno",
+                "Vingança",
+                "Fogo"
+            ],
+            "visual": [
+                "Serpente Gigante",
+                "Forma Humana com Capuz"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Sobrevivência",
+                "Poder místico"
+            ],
+            "flaws": [
+                "Vingança implacável",
+                "Traiçoeiro (matou Parikshit disfarçado)"
+            ],
+            "analysis": "Takshaka representa o perigo oculto e o karma inescapável. Ele sobreviveu à queima da floresta de Khandava por Arjuna e Krishna, jurando vingança. Ele cumpre a maldição do sábio Shringi matando o Rei Parikshit. Ele é a força da natureza que não pode ser totalmente domesticada."
+        },
+        "timeline": [
+            {
+                "title": "Queima de Khandava",
+                "description": "Foge da floresta em chamas enquanto sua esposa morre, salvo por Indra.",
+                "significance": "A origem de seu ódio por Arjuna."
+            },
+            {
+                "title": "Morte de Parikshit",
+                "description": "Disfarça-se de verme em uma fruta para picar e matar o rei.",
+                "significance": "Cumpre a maldição e inicia o Kali Yuga."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Indra",
+                "relation": "Protetor",
+                "details": "Amigo pessoal que o protegia."
+            },
+            {
+                "name": "Parikshit",
+                "relation": "Vítima",
+                "details": "O rei que ele estava destinado a matar."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O rei da floresta.",
+            "end": "O sobrevivente do sacrifício de cobras de Janamejaya."
+        },
+        "quotes": []
+    },
+    {
+        "id": "janamejaya",
+        "name": "Janamejaya",
+        "epithets": [
+            "Sarpa-satri"
+        ],
+        "lineage": {
+            "father": "Parikshit",
+            "mother": "Iravati",
+            "clan": "Kuru",
+            "dynasty": "Lunar"
+        },
+        "affiliations": [
+            "Hastinapura"
+        ],
+        "role": [
+            "Rei",
+            "Ouvinte do Mahabharata"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Fogo do Sacrifício",
+                "Vingança"
+            ],
+            "visual": [
+                "Jovem Rei",
+                "Determinado"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Piedade filial",
+                "Determinação"
+            ],
+            "flaws": [
+                "Ira excessiva (genocídio de cobras)"
+            ],
+            "analysis": "Janamejaya é o rei para quem o Mahabharata é contado. Sua fúria pela morte do pai o leva a realizar o Sarpa Satra (sacrifício das cobras) para exterminar a raça Naga. Ele representa a perpetuação do ciclo de vingança que o próprio épico tenta ensinar a parar."
+        },
+        "timeline": [
+            {
+                "title": "Sarpa Satra",
+                "description": "Inicia um ritual para atrair todas as cobras do mundo para o fogo.",
+                "significance": "A moldura narrativa do épico."
+            },
+            {
+                "title": "Ouvindo o Épico",
+                "description": "Ouve a história de seus ancestrais de Vaishampayana.",
+                "significance": "Aprendizado e expiação."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Parikshit",
+                "relation": "Pai",
+                "details": "Vingou sua morte implacavelmente."
+            },
+            {
+                "name": "Vyasa",
+                "relation": "Bisavô",
+                "details": "Intervém para parar o sacrifício."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O filho vingativo.",
+            "end": "O rei iluminado pela história."
+        },
+        "quotes": []
+    },
+    {
+        "id": "parikshit",
+        "name": "Parikshit",
+        "epithets": [
+            "Vishnu-rata"
+        ],
+        "lineage": {
+            "father": "Abhimanyu",
+            "mother": "Uttara",
+            "clan": "Kuru",
+            "dynasty": "Lunar"
+        },
+        "affiliations": [
+            "Hastinapura"
+        ],
+        "role": [
+            "Rei",
+            "Último Herdeiro"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Feto Morto (revivido)",
+                "Kali Yuga"
+            ],
+            "visual": [
+                "Nobre",
+                "Amaldiçoado"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Dharma",
+                "Justiça"
+            ],
+            "flaws": [
+                "Um momento de impaciência (colocou cobra morta no sábio)"
+            ],
+            "analysis": "Parikshit é o rei ideal cuja única falha trivial leva à sua morte desproporcional, simbolizando a entrada do Kali Yuga (Era das Trevas), onde a virtude diminui. Ele foi salvo no ventre por Krishna após ser atingido pela arma de Ashwatthama."
+        },
+        "timeline": [
+            {
+                "title": "Ressurreição",
+                "description": "Nasceu morto devido à Brahmastra de Ashwatthama, revivido por Krishna.",
+                "significance": "O último milagre de Krishna."
+            },
+            {
+                "title": "A Maldição",
+                "description": "Amaldiçoado a morrer em 7 dias por Takshaka.",
+                "significance": "Ouve o Srimad Bhagavatam em seus últimos dias."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Krishna",
+                "relation": "Salvador",
+                "details": "Deve sua vida a Ele."
+            },
+            {
+                "name": "Shringi",
+                "relation": "Algoz Espiritual",
+                "details": "O jovem sábio que o amaldiçoou."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O feto protegido.",
+            "end": "O rei que morre em paz espiritual."
+        },
+        "quotes": []
+    },
+    {
+        "id": "jjarasandha",
+        "name": "Jarasandha",
+        "epithets": [
+            "Rei de Magadha"
+        ],
+        "lineage": {
+            "father": "Brihadratha",
+            "mother": "-",
+            "clan": "Magadha",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Magadha"
+        ],
+        "role": [
+            "Imperador",
+            "Antagonista"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Nascimento Dividido",
+                "Duelo de Luta"
+            ],
+            "visual": [
+                "Gigante",
+                "Costurado ao meio"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Poder",
+                "Devoção a Shiva"
+            ],
+            "flaws": [
+                "Tirania",
+                "Sacrifício Humano"
+            ],
+            "analysis": "Nascido em duas metades e unido pela demônia Jara (daí seu nome), Jarasandha era o imperador mais poderoso da época, superando até os Kurus. Ele prendia reis para sacrificá-los a Shiva. Sua força física era igual à de Bhima."
+        },
+        "timeline": [
+            {
+                "title": "Ataques a Mathura",
+                "description": "Atacou a cidade de Krishna 17 vezes.",
+                "significance": "Forçou Krishna a migrar para Dwarka."
+            },
+            {
+                "title": "O Duelo Mortal",
+                "description": "Lutou com Bhima por 27 dias; morto sendo rasgado ao meio.",
+                "significance": "Libertou 100 reis cativos."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Bhima",
+                "relation": "Rival",
+                "details": "O único capaz de matá-lo fisicamente."
+            },
+            {
+                "name": "Krishna",
+                "relation": "Inimigo Estratégico",
+                "details": "Krishna sabia que ele não poderia ser vencido em batalha aberta."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O bebê dividido.",
+            "end": "O imperador rasgado."
+        },
+        "quotes": []
+    },
+    {
+        "id": "shishupala",
+        "name": "Shishupala",
+        "epithets": [
+            "Rei de Chedi"
+        ],
+        "lineage": {
+            "father": "Damaghosha",
+            "mother": "Shrutashrava (irmã de Vasudeva)",
+            "clan": "Chedi / Yadava",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Chedi"
+        ],
+        "role": [
+            "Rei",
+            "Inimigo de Krishna"
+        ],
+        "attributes": {
+            "symbolic": [
+                "100 Insultos",
+                "Terceiro Olho (ao nascer)"
+            ],
+            "visual": [
+                "Furioso",
+                "Guerreiro"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "-"
+            ],
+            "flaws": [
+                "Ódio irracional",
+                "Blasfêmia"
+            ],
+            "analysis": "Shishupala nasceu com 3 olhos e 4 braços, que desapareceram quando Krishna o segurou. Foi profetizado que Krishna o mataria. Krishna prometeu à mãe dele perdoar 100 insultos. No Rajasuya, Shishupala esgotou a cota e foi decapitado pelo Chakra."
+        },
+        "timeline": [
+            {
+                "title": "O Sacrifício Rajasuya",
+                "description": "Opoe-se à honra dada a Krishna e começa a insultá-lo.",
+                "significance": "Seu momento final."
+            },
+            {
+                "title": "Morte Pelo Chakra",
+                "description": "Decapitado instantaneamente após o 101º insulto.",
+                "significance": "Sua alma se fundiu a Krishna (libertação pelo ódio)."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Krishna",
+                "relation": "Primo/Algoz",
+                "details": "Inimigos mortais desde o nascimento."
+            },
+            {
+                "name": "Rukmini",
+                "relation": "Noiva Pretendida",
+                "details": "Krishna a raptou antes do casamento com Shishupala."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O bebê monstruoso.",
+            "end": "A alma libertada pelo disco divino."
+        },
+        "quotes": []
+    },
+    {
+        "id": "hidimbi",
+        "name": "Hidimbi",
+        "epithets": [
+            "Rakshasi"
+        ],
+        "lineage": {
+            "father": "-",
+            "mother": "-",
+            "clan": "Rakshasa",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Floresta Kamyaka"
+        ],
+        "role": [
+            "Esposa de Bhima",
+            "Mãe de Ghatotkacha"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Amor transgressor",
+                "Floresta"
+            ],
+            "visual": [
+                "Tribal",
+                "Poderosa"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Lealdade",
+                "Independência"
+            ],
+            "flaws": [
+                "Natureza demoníaca (superada pelo amor)"
+            ],
+            "analysis": "Hidimbi se apaixonou por Bhima e traiu seu irmão Hidimba para salvá-lo. Ela representa a aceitação do 'outro'. Kunti aceitou seu casamento sob a condição de que Bhima só ficasse com ela até ter um filho. Ela criou Ghatotkacha sozinha como um grande guerreiro."
+        },
+        "timeline": [
+            {
+                "title": "Encontro na Floresta",
+                "description": "Recusa-se a matar os Pandavas e alerta Bhima.",
+                "significance": "Início da aliança Pandava-Rakshasa."
+            },
+            {
+                "title": "Partida",
+                "description": "Deixa Bhima ir após o nascimento do filho, cumprindo a promessa.",
+                "significance": "Sacrifício amoroso."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Bhima",
+                "relation": "Marido",
+                "details": "Amor breve mas frutífero."
+            },
+            {
+                "name": "Ghatotkacha",
+                "relation": "Filho",
+                "details": "Orgulho de sua vida."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "A demônia faminta.",
+            "end": "A mãe nobre."
+        },
+        "quotes": []
+    },
+    {
+        "id": "ulupi",
+        "name": "Ulupi",
+        "epithets": [
+            "Nagini"
+        ],
+        "lineage": {
+            "father": "Kauravya",
+            "mother": "-",
+            "clan": "Naga",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Reino Subaquático"
+        ],
+        "role": [
+            "Esposa de Arjuna",
+            "Madrasta"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Água",
+                "Jóia da Ressurreição"
+            ],
+            "visual": [
+                "Bela",
+                "Mística"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Iniciativa",
+                "Poder de cura"
+            ],
+            "flaws": [
+                "Possessividade"
+            ],
+            "analysis": "Ulupi, a princesa serpente, raptou Arjuna porque se apaixonou por ele. Ela lhe deu o dom de ser invencível na água. Mais tarde, ela salvou a vida de Arjuna quando ele foi morto por seu próprio filho Babruvahana, usando uma jóia mágica."
+        },
+        "timeline": [
+            {
+                "title": "Rapto de Arjuna",
+                "description": "Leva Arjuna para seu reino subaquático.",
+                "significance": "Casamento místico."
+            },
+            {
+                "title": "Ressurreição de Arjuna",
+                "description": "Usa a jóia Naga para reviver Arjuna após a batalha com Babruvahana.",
+                "significance": "A salvadora final do herói."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Arjuna",
+                "relation": "Marido",
+                "details": "Uma das muitas esposas do herói."
+            },
+            {
+                "name": "Iravan",
+                "relation": "Filho",
+                "details": "Mãe amorosa."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "A princesa apaixonada.",
+            "end": "A salvadora da dinastia."
+        },
+        "quotes": []
+    },
+    {
+        "id": "chitrangada",
+        "name": "Chitrangada",
+        "epithets": [
+            "Princesa de Manipur"
+        ],
+        "lineage": {
+            "father": "Chitravahana",
+            "mother": "-",
+            "clan": "Manipur",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Manipur"
+        ],
+        "role": [
+            "Guerreira",
+            "Rainha"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Arco",
+                "Governante Independente"
+            ],
+            "visual": [
+                "Guerreira",
+                "Bela"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Liderança",
+                "Independência"
+            ],
+            "flaws": [
+                "-"
+            ],
+            "analysis": "Chitrangada foi criada como um homem por seu pai para herdar o trono. Arjuna se apaixonou por sua bravura. Ela concordou em casar-se apenas se seu filho permanecesse em Manipur para herdar o trono, em vez de retornar a Hastinapura."
+        },
+        "timeline": [
+            {
+                "title": "Encontro com Arjuna",
+                "description": "Luta ou caça com Arjuna.",
+                "significance": "Romance entre iguais."
+            },
+            {
+                "title": "Batalha de Pai e Filho",
+                "description": "Seu filho Babruvahana derrota Arjuna.",
+                "significance": "Prova da força de sua criação."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Babruvahana",
+                "relation": "Filho",
+                "details": "Criou-o para ser um guerreiro melhor que o pai."
+            },
+            {
+                "name": "Arjuna",
+                "relation": "Marido",
+                "details": "Amor respeitoso."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "A herdeira guerreira.",
+            "end": "A rainha mãe vitoriosa."
+        },
+        "quotes": []
+    },
+    {
+        "id": "jayadratha",
+        "name": "Jayadratha",
+        "epithets": [
+            "Saindhava"
+        ],
+        "lineage": {
+            "father": "Vriddhakshatra",
+            "mother": "-",
+            "clan": "Sindhu",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Kauravas",
+            "Sindhu"
+        ],
+        "role": [
+            "Rei",
+            "Marido de Dushala"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Javali (Emblema)",
+                "Maldição da Cabeça"
+            ],
+            "visual": [
+                "Arrogante",
+                "Rico"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Poder militar"
+            ],
+            "flaws": [
+                "Luxúria",
+                "Covardia",
+                "Rancor"
+            ],
+            "analysis": "Jayadratha tentou raptar Draupadi na floresta e foi humilhado pelos Pandavas (cabeça raspada). Ele obteve a bênção de Shiva para segurar os Pandavas (exceto Arjuna) por um dia. Ele usou isso para bloquear a ajuda a Abhimanyu, causando sua morte. Arjuna jurou matá-lo antes do pôr do sol."
+        },
+        "timeline": [
+            {
+                "title": "Rapto de Draupadi",
+                "description": "Tenta levar Draupadi; derrotado e humilhado.",
+                "significance": "Origem de seu ódio."
+            },
+            {
+                "title": "Bloqueando o Chakravyuha",
+                "description": "Impede Bhima e Yudhishthira de salvar Abhimanyu.",
+                "significance": "Causa indireta da morte de Abhimanyu."
+            },
+            {
+                "title": "Morte no Crepúsculo",
+                "description": "Decapitado por uma flecha de Arjuna ajudada por Krishna.",
+                "significance": "Sua cabeça caiu no colo de seu pai."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Dushala",
+                "relation": "Esposa",
+                "details": "Irmã de Duryodhana, o elo com os Kauravas."
+            },
+            {
+                "name": "Arjuna",
+                "relation": "Executor",
+                "details": "O homem que ele mais temia."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O rei arrogante.",
+            "end": "A cabeça decapitada."
+        },
+        "quotes": []
+    },
+    {
+        "id": "satyaki",
+        "name": "Satyaki",
+        "epithets": [
+            "Yuyudhana",
+            "Daruka"
+        ],
+        "lineage": {
+            "father": "Satyaka",
+            "mother": "-",
+            "clan": "Yadava (Vrishni)",
+            "dynasty": "Lunar"
+        },
+        "affiliations": [
+            "Pandavas"
+        ],
+        "role": [
+            "Guerreiro",
+            "Aluno de Arjuna"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Arco",
+                "Fúria"
+            ],
+            "visual": [
+                "Guerreiro Ativo",
+                "Leal"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Lealdade fanática a Krishna e Arjuna",
+                "Coragem"
+            ],
+            "flaws": [
+                "Temperamento explosivo",
+                "Álcool (destruição final)"
+            ],
+            "analysis": "Satyaki é o único guerreiro Vrishni que lutou pelos Pandavas (Kritavarma lutou pelos Kauravas). Ele protegeu Yudhishthira e salvou Arjuna várias vezes. Ele tem uma rivalidade antiga com Bhurisravas e o mata de forma controversa. Ele morre na guerra civil Yadava, bêbado, matando Kritavarma."
+        },
+        "timeline": [
+            {
+                "title": "Morte de Bhurisravas",
+                "description": "Decapita Bhurisravas enquanto este meditava (após braço cortado por Arjuna).",
+                "significance": "Ato controverso de guerra."
+            },
+            {
+                "title": "Massacre Yadava",
+                "description": "Inicia a briga bêbada que destrói todo o clã Yadava.",
+                "significance": "O fim da era."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Arjuna",
+                "relation": "Guru/Amigo",
+                "details": "Aluno devoto."
+            },
+            {
+                "name": "Kritavarma",
+                "relation": "Rival Yadava",
+                "details": "Inimigos políticos dentro do mesmo clã."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O guerreiro leal.",
+            "end": "O catalisador da destruição de seu povo."
+        },
+        "quotes": []
+    },
+    {
+        "id": "kritavarma",
+        "name": "Kritavarma",
+        "epithets": [
+            "Bhoja"
+        ],
+        "lineage": {
+            "father": "Hridika",
+            "mother": "-",
+            "clan": "Yadava (Andhaka)",
+            "dynasty": "Lunar"
+        },
+        "affiliations": [
+            "Kauravas"
+        ],
+        "role": [
+            "Guerreiro",
+            "Conspirador"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Lança"
+            ],
+            "visual": [
+                "Guerreiro Sério"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Habilidade marcial"
+            ],
+            "flaws": [
+                "Traição (Massacre Noturno)",
+                "Rivalidade mesquinha"
+            ],
+            "analysis": "Kritavarma liderou o exército de Krishna (Narayani Sena) que lutou pelos Kauravas. Ele foi um dos 3 sobreviventes Kauravas (junto com Ashwatthama e Kripa). Ele ajudou no massacre noturno. Anos depois, Satyaki o insultou por matar dormentes, levando à briga que matou todos."
+        },
+        "timeline": [
+            {
+                "title": "Massacre Noturno",
+                "description": "Vigiou os portões enquanto Ashwatthama matava a todos.",
+                "significance": "Cúmplice de genocídio."
+            },
+            {
+                "title": "Morte em Prabhasa",
+                "description": "Decapitado por Satyaki durante a bebedeira.",
+                "significance": "O primeiro a cair na guerra civil."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Ashwatthama",
+                "relation": "Líder",
+                "details": "Seguiu-o no crime final."
+            },
+            {
+                "name": "Satyaki",
+                "relation": "Inimigo",
+                "details": "O ódio mútuo destruiu a raça."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O general Yadava.",
+            "end": "A vítima de seu próprio karma passsado."
+        },
+        "quotes": []
+    },
+    {
+        "id": "barbarika",
+        "name": "Barbarika",
+        "epithets": [
+            "Khatushyam"
+        ],
+        "lineage": {
+            "father": "Ghatotkacha",
+            "mother": "Ahilawati (Maurvi)",
+            "clan": "Rakshasa / Yadava",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Neutro"
+        ],
+        "role": [
+            "Guerreiro",
+            "Observador"
+        ],
+        "attributes": {
+            "symbolic": [
+                "3 Flechas",
+                "Cabeça no Topo da Colina"
+            ],
+            "visual": [
+                "Jovem",
+                "Cabeça decepada viva"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Poder absoluto",
+                "Honestidade"
+            ],
+            "flaws": [
+                "Promessa ingênua (lutar pelo lado mais fraco)"
+            ],
+            "analysis": "Barbarika tinha 3 flechas que poderiam acabar com a guerra em minutos. Ele prometeu à mãe lutar pelo lado que estivesse perdendo. Krishna percebeu que isso o faria oscilar entre os lados até matar todos. Krishna pediu sua cabeça como caridade. Barbarika deu, mas pediu para ver a guerra. Sua cabeça foi colocada numa colina."
+        },
+        "timeline": [
+            {
+                "title": "O Teste de Krishna",
+                "description": "Fura todas as folhas de uma árvore com uma flecha (e o pé de Krishna que escondia uma).",
+                "significance": "Demonstração de onipotência."
+            },
+            {
+                "title": "Doação da Cabeça",
+                "description": "Decapita-se a pedido de Krishna.",
+                "significance": "Sacrifício para permitir a guerra."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Krishna",
+                "relation": "Divindade",
+                "details": "Reconheceu Krishna como o verdadeiro arquiteto da guerra."
+            },
+            {
+                "name": "Bhima",
+                "relation": "Avô",
+                "details": "Nieto orgulhoso."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O guerreiro invencível.",
+            "end": "A testemunha eterna."
+        },
+        "quotes": [
+            "Eu vi apenas um Sudarshan Chakra cortando e Draupadi bebendo sangue."
+        ]
+    },
+    {
+        "id": "yayati",
+        "name": "Yayati",
+        "epithets": [
+            "Nahusha",
+            "Indra dos Reis"
+        ],
+        "lineage": {
+            "father": "Nahusha",
+            "mother": "Ashokasundari",
+            "clan": "Lunar (Chandravansha)",
+            "dynasty": "Lunar"
+        },
+        "affiliations": [
+            "Pratisthana"
+        ],
+        "role": [
+            "Imperador",
+            "Ancestral dos Yadavas e Kurus"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Velhice Trocada",
+                "Desejo Insaciável"
+            ],
+            "visual": [
+                "Rei Majestoso",
+                "Jovem Eterno (temporariamente)"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Governança justa"
+            ],
+            "flaws": [
+                "Luxúria eterna",
+                "Apego à juventude"
+            ],
+            "analysis": "Yayati é o clássico conto de advertência sobre o desejo (Kama). Amaldiçoado por Shukracharya com velhice prematura por trair Devayani com Sharmishtha, ele pediu a juventude de seus filhos emprestada. Apenas Puru aceitou. Após 1000 anos, Yayati percebeu que o desejo nunca se sacia, 'como fogo alimentado com manteiga', e devolveu a juventude a Puru."
+        },
+        "timeline": [
+            {
+                "title": "O Poço Seco",
+                "description": "Resgata Devayani de um poço, o que o obriga a casar com ela.",
+                "significance": "Início de sua maldição."
+            },
+            {
+                "title": "A Troca de Idade",
+                "description": "Troca sua velhice pela juventude de seu filho Puru.",
+                "significance": "O teste final de seus filhos."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Devayani",
+                "relation": "Esposa (Brahmane)",
+                "details": "Filha de Shukracharya, orgulhosa e vingativa."
+            },
+            {
+                "name": "Sharmishtha",
+                "relation": "Esposa (Asura)",
+                "details": "Princesa Asura que se tornou serva e amante."
+            },
+            {
+                "name": "Puru",
+                "relation": "Filho Herdeiro",
+                "details": "Deu-lhe a juventude; ancestral dos Pandavas/Kurus."
+            },
+            {
+                "name": "Yadu",
+                "relation": "Filho Rebelde",
+                "details": "Recusou dar a juventude; ancestral de Krishna (Yadavas)."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O rei que salvou a Brahmane.",
+            "end": "O asceta que atingiu os céus mas caiu por orgulho."
+        },
+        "quotes": [
+            "O desejo nunca é saciado pela satisfação dos desejos, assim como o fogo aumenta com o ghee."
+        ]
+    },
+    {
+        "id": "nahusha",
+        "name": "Nahusha",
+        "epithets": [
+            "Indra Substituto"
+        ],
+        "lineage": {
+            "father": "Ayu",
+            "mother": "-",
+            "clan": "Lunar",
+            "dynasty": "Lunar"
+        },
+        "affiliations": [
+            "Swarga (Céu)"
+        ],
+        "role": [
+            "Rei",
+            "Indra Temporário"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Olho da Serpente",
+                "Palanquim"
+            ],
+            "visual": [
+                "Real",
+                "Arrogante"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Mérito ascético (inicialmente)"
+            ],
+            "flaws": [
+                "Hubris (Orgulho desmedido)",
+                "Luxúria por Indrani"
+            ],
+            "analysis": "Nahusha substituiu Indra quando este estava escondido. Embriagado pelo poder, ele desejou a esposa de Indra, Sachi. Ao ser carregado em um palanquim pelos Sete Sábios (Saptarishis), ele chutou o sábio Agastya na pressa, sendo amaldiçoado a virar uma cobra gigante. Foi liberado milênios depois por Yudhishthira."
+        },
+        "timeline": [
+            {
+                "title": "Reinado no Céu",
+                "description": "Substitui Indra e governa os três mundos.",
+                "significance": "O ápice do poder mortal."
+            },
+            {
+                "title": "A Maldição",
+                "description": "Chuta Agastya Muni e cai do céu como cobra.",
+                "significance": "A queda pelo orgulho."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Yudhishthira",
+                "relation": "Descendente/Salvador",
+                "details": "Respondeu às perguntas da cobra Nahusha e o libertou."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O rei virtuoso.",
+            "end": "A cobra redimida."
+        },
+        "quotes": []
+    },
+    {
+        "id": "shakuntala",
+        "name": "Shakuntala",
+        "epithets": [
+            "Mãe de Bharata"
+        ],
+        "lineage": {
+            "father": "Vishvamitra",
+            "mother": "Menaka (Apsara)",
+            "clan": "-",
+            "dynasty": "-"
+        },
+        "affiliations": [
+            "Ashram de Kanva"
+        ],
+        "role": [
+            "Rainha",
+            "Eremita"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Anel Perdido",
+                "Natureza"
+            ],
+            "visual": [
+                "Bela Eremita",
+                "Inocente"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Paciência",
+                "Amor"
+            ],
+            "flaws": [
+                "Distração (causou a maldição de Durvasa)"
+            ],
+            "analysis": "A história de Shakuntala é o romance central do Adi Parva. Filha de um sábio e uma ninfa, ela se apaixona pelo rei Dushyanta. Amaldiçoada por Durvasa a ser esquecida pelo amado, ela cria seu filho Bharata sozinha na floresta até o anel perdido ser encontrado e a memória do rei restaurada. Ela é o arquétipo da mulher sofredora e digna."
+        },
+        "timeline": [
+            {
+                "title": "Gandharva Vivaha",
+                "description": "Casa-se secretamente com Dushyanta na floresta.",
+                "significance": "A união da natureza e da realeza."
+            },
+            {
+                "title": "Rejeição no Corte",
+                "description": "Apresenta o filho ao rei, que não a reconhece devido à maldição.",
+                "significance": "A grande provação."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Dushyanta",
+                "relation": "Marido",
+                "details": "Esqueceu-a, mas amou-a."
+            },
+            {
+                "name": "Bharata",
+                "relation": "Filho",
+                "details": "O imperador que dá nome à Índia (Bharat)."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "A menina abandonada pelos pássaros.",
+            "end": "A rainha mãe empoderada."
+        },
+        "quotes": []
+    },
+    {
+        "id": "bharata",
+        "name": "Bharata",
+        "epithets": [
+            "Sarvadamana"
+        ],
+        "lineage": {
+            "father": "Dushyanta",
+            "mother": "Shakuntala",
+            "clan": "Lunar",
+            "dynasty": "Lunar"
+        },
+        "affiliations": [
+            "Himalaias",
+            "Hastinapura"
+        ],
+        "role": [
+            "Chakravartin (Imperador Universal)"
+        ],
+        "attributes": {
+            "symbolic": [
+                "Leão (brinquedo de infância)",
+                "Roda (Chakra)"
+            ],
+            "visual": [
+                "Menino forte",
+                "Imperador Dourado"
+            ]
+        },
+        "psychology": {
+            "virtues": [
+                "Bravura",
+                "Justiça"
+            ],
+            "flaws": [
+                "-"
+            ],
+            "analysis": "Bharata é o ancestral que dá nome ao clã (Bharatavansha) e ao país (Bhārata). Quando criança, contava os dentes de leões selvagens. Como imperador, realizou 100 sacrifícios Ashwamedha. Ele deserdou seus próprios filhos biológicos por não considerá-los dignos, adotando Bhumanyu, estabelecendo o mérito sobre o nascimento (um ideal que o Mahabharata mais tarde questiona)."
+        },
+        "timeline": [
+            {
+                "title": "Infância na Floresta",
+                "description": "Brincava com leões e tigres.",
+                "significance": "Sinal de divindade real."
+            },
+            {
+                "title": "A Sucessão",
+                "description": "Adota um filho qualificado em vez de promover sua prole incompetente.",
+                "significance": "Estabelece o Dharma real supremos."
+            }
+        ],
+        "relationships": [
+            {
+                "name": "Shantanu",
+                "relation": "Descendente Distante",
+                "details": "Continuador da linhagem de Bharata."
+            }
+        ],
+        "narrativeArc": {
+            "beginning": "O menino destemido.",
+            "end": "O imperador lendário."
+        },
+        "quotes": []
+    }
+]

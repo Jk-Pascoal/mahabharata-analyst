@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "slug": "adi-parva",
+        "title": "Adi Parva",
+        "titleSan": "आदि पर्व",
+        "translation": "O Livro do Início",
+        "description": "Introdução, origens da linhagem Kuru, nascimento dos Pandavas e Kauravas, e incidentes iniciais de suas vidas.",
+        "verseCount": 7984,
+        "chapters": 242
+    },
+    {
+        "id": 2,
+        "slug": "sabha-parva",
+        "title": "Sabha Parva",
+        "titleSan": "सभा पर्व",
+        "translation": "O Livro da Assembleia",
+        "description": "Vida na corte, o jogo de dados, o exílio dos Pandavas e a humilhação de Draupadi.",
+        "verseCount": 2511,
+        "chapters": 81
+    },
+    {
+        "id": 3,
+        "slug": "vana-parva",
+        "title": "Vana Parva",
+        "titleSan": "वन पर्व",
+        "translation": "O Livro da Floresta",
+        "description": "Os 12 anos de exílio na floresta.",
+        "verseCount": 11664,
+        "chapters": 324
+    },
+    {
+        "id": 4,
+        "slug": "virata-parva",
+        "title": "Virata Parva",
+        "titleSan": "विराट पर्व",
+        "translation": "O Livro de Virata",
+        "description": "O 13º ano de exílio passado incógnito na corte de Virata.",
+        "verseCount": 2050,
+        "chapters": 72
+    },
+    {
+        "id": 5,
+        "slug": "udyoga-parva",
+        "title": "Udyoga Parva",
+        "titleSan": "उद्योग पर्व",
+        "translation": "O Livro do Esforço",
+        "description": "Preparativos para a guerra e tentativas de paz falhas.",
+        "verseCount": 6698,
+        "chapters": 199
+    },
+    {
+        "id": 6,
+        "slug": "bhishma-parva",
+        "title": "Bhishma Parva",
+        "titleSan": "भीष्म पर्व",
+        "translation": "O Livro de Bhishma",
+        "description": "Primeira parte da grande batalha, com Bhishma como comandante. Inclui a Bhagavad Gita.",
+        "verseCount": 5884,
+        "chapters": 122
+    },
+    {
+        "id": 7,
+        "slug": "drona-parva",
+        "title": "Drona Parva",
+        "titleSan": "द्रोण पर्व",
+        "translation": "O Livro de Drona",
+        "description": "A batalha continua com Drona como comandante. Morte de Abhimanyu e Ghatotkacha.",
+        "verseCount": 8909,
+        "chapters": 204
+    },
+    {
+        "id": 8,
+        "slug": "karna-parva",
+        "title": "Karna Parva",
+        "titleSan": "कर्ण पर्व",
+        "translation": "O Livro de Karna",
+        "description": "Karna lidera o exército Kaurava. Batalha final entre Karna e Arjuna.",
+        "verseCount": 4964,
+        "chapters": 96
+    },
+    {
+        "id": 9,
+        "slug": "shalya-parva",
+        "title": "Shalya Parva",
+        "titleSan": "शल्य पर्व",
+        "translation": "O Livro de Shalya",
+        "description": "Último dia da batalha com Shalya como comandante. Duelo final entre Bhima e Duryodhana.",
+        "verseCount": 3220,
+        "chapters": 64
+    },
+    {
+        "id": 10,
+        "slug": "sauptika-parva",
+        "title": "Sauptika Parva",
+        "titleSan": "सौप्तिक पर्व",
+        "translation": "O Livro dos Guerreiros Adormecidos",
+        "description": "Ashwatthama mata o restante do exército Pandava enquanto dormem.",
+        "verseCount": 870,
+        "chapters": 18
+    },
+    {
+        "id": 11,
+        "slug": "stri-parva",
+        "title": "Stri Parva",
+        "titleSan": "स्त्री पर्व",
+        "translation": "O Livro das Mulheres",
+        "description": "O lamento das mulheres pelas mortes na guerra.",
+        "verseCount": 775,
+        "chapters": 27
+    },
+    {
+        "id": 12,
+        "slug": "shanti-parva",
+        "title": "Shanti Parva",
+        "titleSan": "शान्ति पर्व",
+        "translation": "O Livro da Paz",
+        "description": "Yudhisthira é coroado e Bhishma dá instruções sobre deveres e filosofia.",
+        "verseCount": 14732,
+        "chapters": 365
+    },
+    {
+        "id": 13,
+        "slug": "anushasana-parva",
+        "title": "Anushasana Parva",
+        "titleSan": "अनुशासन पर्व",
+        "translation": "O Livro das Instruções",
+        "description": "Continuação das instruções de Bhishma. Morte de Bhishma.",
+        "verseCount": 8000,
+        "chapters": 168
+    },
+    {
+        "id": 14,
+        "slug": "ashvamedhika-parva",
+        "title": "Ashvamedhika Parva",
+        "titleSan": "अश्वमेधिका पर्व",
+        "translation": "O Livro do Sacrifício do Cavalo",
+        "description": "Yudhisthira realiza o Ashvamedha Yajna para consagrar seu domínio.",
+        "verseCount": 3320,
+        "chapters": 96
+    },
+    {
+        "id": 15,
+        "slug": "ashramavasika-parva",
+        "title": "Ashramavasika Parva",
+        "titleSan": "आश्रमवासिका पर्व",
+        "translation": "O Livro da Morada no Eremitério",
+        "description": "Dhritarashtra, Gandhari e Kunti partem para a floresta.",
+        "verseCount": 1506,
+        "chapters": 39
+    },
+    {
+        "id": 16,
+        "slug": "mausala-parva",
+        "title": "Mausala Parva",
+        "titleSan": "मौसल पर्व",
+        "translation": "O Livro dos Bastões",
+        "description": "A destruição dos Yadavas por lutas internas em uma bebedeira.",
+        "verseCount": 292,
+        "chapters": 8
+    },
+    {
+        "id": 17,
+        "slug": "mahaprasthanika-parva",
+        "title": "Mahaprasthanika Parva",
+        "titleSan": "महाप्रस्थानिक पर्व",
+        "translation": "O Livro da Grande Jornada",
+        "description": "Os Pandavas iniciam sua jornada final para o Himalaia.",
+        "verseCount": 122,
+        "chapters": 3
+    },
+    {
+        "id": 18,
+        "slug": "svargarohana-parva",
+        "title": "Svargarohana Parva",
+        "titleSan": "स्वर्गारोहण पर्व",
+        "translation": "O Livro da Ascensão ao Céu",
+        "description": "Teste final de Yudhisthira e entrada no céu.",
+        "verseCount": 209,
+        "chapters": 5
+    }
+]
