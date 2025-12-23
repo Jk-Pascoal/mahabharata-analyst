@@ -36,32 +36,39 @@ export const CharacterDashboard: React.FC<DashboardProps> = ({ character, onBack
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+
                 {/* Left Column: Stats & Facts */}
                 <div className="space-y-8">
-                    <Section title="Linhagem" icon={<Anchor size={18} />}>
-                        <div className="space-y-2 text-slate-300">
-                            <p><span className="text-slate-500 uppercase text-xs font-bold tracking-wider">Pai:</span> {character.lineage.father}</p>
-                            <p><span className="text-slate-500 uppercase text-xs font-bold tracking-wider">Mãe:</span> {character.lineage.mother}</p>
-                        </div>
-                    </Section>
+                    {character.lineage.father !== 'Ver Texto' && character.lineage.father !== '?' && (
+                        <Section title="Linhagem" icon={<Anchor size={18} />}>
+                            <div className="space-y-2 text-slate-300">
+                                <p><span className="text-slate-500 uppercase text-xs font-bold tracking-wider">Pai:</span> {character.lineage.father}</p>
+                                <p><span className="text-slate-500 uppercase text-xs font-bold tracking-wider">Mãe:</span> {character.lineage.mother}</p>
+                            </div>
+                        </Section>
+                    )}
 
-                    <Section title="Papéis & Funções" icon={<Shield size={18} />}>
-                        <ul className="list-none space-y-1">
-                            {character.role.map((r, i) => (
-                                <li key={i} className="text-slate-300 border-l-2 border-epic-gold/50 pl-3">{r}</li>
-                            ))}
-                        </ul>
-                    </Section>
+                    {character.role[0] !== 'Figura do Texto' && (
+                        <Section title="Papéis & Funções" icon={<Shield size={18} />}>
+                            <ul className="list-none space-y-1">
+                                {character.role.map((r, i) => (
+                                    <li key={i} className="text-slate-300 border-l-2 border-epic-gold/50 pl-3">{r}</li>
+                                ))}
+                            </ul>
+                        </Section>
+                    )}
 
-                    <Section title="Atributos Simbólicos" icon={<Activity size={18} />}>
-                        <div className="flex flex-wrap gap-2">
-                            {character.attributes.symbolic.map((attr, i) => (
-                                <span key={i} className="bg-epic-gold/10 text-epic-gold text-xs px-2 py-1 rounded border border-epic-gold/20 uppercase tracking-wide">
-                                    {attr}
-                                </span>
-                            ))}
-                        </div>
-                    </Section>
+                    {character.attributes.symbolic.length > 0 && (
+                        <Section title="Atributos Simbólicos" icon={<Activity size={18} />}>
+                            <div className="flex flex-wrap gap-2">
+                                {character.attributes.symbolic.map((attr, i) => (
+                                    <span key={i} className="bg-epic-gold/10 text-epic-gold text-xs px-2 py-1 rounded border border-epic-gold/20 uppercase tracking-wide">
+                                        {attr}
+                                    </span>
+                                ))}
+                            </div>
+                        </Section>
+                    )}
                 </div>
 
                 {/* Middle Column: Analysis (Wide) */}

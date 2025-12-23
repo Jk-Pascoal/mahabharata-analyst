@@ -2,9 +2,11 @@ import React from 'react';
 
 interface LayoutProps {
     children: React.ReactNode;
+    currentView: 'home' | 'library';
+    onNavigate: (view: 'home' | 'library') => void;
 }
 
-export const Layout: React.FC<LayoutProps> = ({ children }) => {
+export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigate }) => {
     return (
         <div className="min-h-screen bg-epic-deepBlue text-slate-200 font-sans selection:bg-epic-gold selection:text-epic-deepBlue overflow-x-hidden">
             {/* Decorative Background Elements */}
@@ -17,12 +19,33 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             <main className="relative z-10 px-4 py-8 md:px-8 max-w-7xl mx-auto">
                 {/* Header / Nav could go here */}
                 <header className="mb-12 text-center border-b border-epic-gold/20 pb-8">
-                    <h1 className="text-4xl md:text-6xl font-serif text-epic-gold tracking-widest uppercase drop-shadow-lg">
+                    <h1 className="text-4xl md:text-6xl font-serif text-epic-gold tracking-widest uppercase drop-shadow-lg cursor-pointer" onClick={() => onNavigate('home')}>
                         Mahabharata
                     </h1>
                     <p className="mt-2 text-epic-bronze font-serif italic text-lg opacity-80">
                         Analista de Arquétipos Mitológicos
                     </p>
+
+                    <nav className="flex justify-center gap-8 mt-8 text-sm tracking-widest uppercase">
+                        <button
+                            onClick={() => onNavigate('home')}
+                            className={`pb-2 border-b-2 transition-all duration-300 ${currentView === 'home'
+                                    ? 'text-epic-gold border-epic-gold'
+                                    : 'text-slate-500 border-transparent hover:text-slate-300'
+                                }`}
+                        >
+                            Início
+                        </button>
+                        <button
+                            onClick={() => onNavigate('library')}
+                            className={`pb-2 border-b-2 transition-all duration-300 ${currentView === 'library'
+                                    ? 'text-epic-gold border-epic-gold'
+                                    : 'text-slate-500 border-transparent hover:text-slate-300'
+                                }`}
+                        >
+                            Biblioteca
+                        </button>
+                    </nav>
                 </header>
 
                 {children}
