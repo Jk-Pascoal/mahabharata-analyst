@@ -1,51 +1,55 @@
 # Analista de Personagens do Mahabharata
 
-Este projeto é uma aplicação web sofisticada projetada para explorar os arquétipos, filosofia e narrativas do épico Mahabharata. Construído com uma estética "Épica" inspirada na arte clássica indiana, o app oferece uma análise profunda de personagens chave como Arjuna, Krishna e Yudhisthira.
+Este projeto é uma aplicação web sofisticada projetada para explorar os arquétipos, filosofia e narrativas do épico Mahabharata. Construído com uma estética "Épica" inspirada na arte clássica indiana, o app oferece uma análise profunda de personagens e acesso direto aos textos sagrados.
 
 ## 🌟 Funcionalidades
 
-- **Busca Interativa**: Encontre personagens rapidamente com um sistema de busca elegante e auto-complete.
+- **Biblioteca Universal**: Acesso completo aos 18 Parvas (Livros) do Mahabharata, formatados para leitura digital.
+- **Busca Híbrida Inteligente**: 
+  - **Nível 1**: Personagens Curados (Arjuna, Krishna, etc.) com perfis detalhados.
+  - **Nível 2**: Banco de Dados Expandido (Takshaka, Yayati, etc.) com centenas de perfis secundários.
+  - **Nível 3**: Índice Textual, rastreando qualquer nome mencionado no texto original.
 - **Painel de Análise Profunda**: Visualize linhagem, papéis, atributos simbólicos e arco narrativo.
-- **Linha do Tempo**: Explore os eventos marcantes da vida de cada personagem.
+- **Linha do Tempo Dinâmica**: Explore aparições e eventos marcantes baseados no texto.
 - **Design Imersivo**: Interface com tema escuro (Deep Blue), acentos em Ouro e Bronze, e tipografia clássica (Cinzel & Lato).
-- **Conteúdo Filosófico**: Foco em Dharma, psicologia e simbolismo, não apenas biografia.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React V19**: Framework frontend para construção da interface.
-- **Vite**: Build tool rápida e moderna.
-- **TypeScript**: Para tipagem estática e segurança do código.
-- **Tailwind CSS v3**: Framework de utilitários para estilização (Configurado com cores personalizadas: Epic Gold, Bronze, Deep Blue).
-- **Lucide React**: Ícones leves e elegantes.
+- **React V19**: Framework frontend.
+- **Vite**: Build tool rápida.
+- **TypeScript**: Para robustez do código.
+- **Tailwind CSS v3**: Estilização com paleta personalizada (Epic Gold, Bronze).
+- **Node.js Scripts**: Scripts personalizados para indexação e processamento de texto.
 
 ## 🚀 Como Executar
 
-1.  **Instalar dependências**:
-    ```bash
-    npm install
-    ```
+### 1. Instalar dependências
+```bash
+npm install
+```
 
-2.  **Iniciar servidor de desenvolvimento**:
-    ```bash
-    npm run dev
-    ```
+### 2. Desenvolvimento Local (PC)
+```bash
+npm run dev
+```
 
-3.  **Build para produção**:
-    ```bash
-    npm run build
-    ```
+### 3. Acesso via Celular (Wi-Fi Local)
+Para testar no seu celular conectado à mesma rede Wi-Fi:
+```bash
+npm run dev:lan
+```
 
-## 📂 Estrutura do Projeto
+### 4. Build para Produção
+```bash
+npm run build
+```
+*(A pasta `dist` gerada pode ser arrastada para o [Netlify Drop](https://app.netlify.com/drop) para publicação imediata)*
 
-- `src/components`: Componentes UI reutilizáveis e features (Search, Dashboard).
-- `src/data`: Onde residem os dados estáticos dos personagens (facilmente expansível).
-- `src/types`: Definições de tipos TypeScript para o modelo de dados.
+## 📂 Estrutura de Dados
 
-## 🔮 Futuras Expansões
-
-- Adição de novos personagens (Karna, Duryodhana, Bhishma, Draupadi).
-- Integração de imagens/arte para cada personagem.
-- Visualização de grafos de relacionamento.
+- `public/data/parvas`: Contém os arquivos JSON dos 18 livros processados.
+- `public/data/full_character_database.json`: Banco de dados massivo com centenas de perfis.
+- `src/services/mahabharataService.ts`: Lógica de busca híbrida (Memória + JSON + Índice).
 
 ---
 *Desenvolvido por **Zemo-Cosmovisões** - Ferramenta de análise mitológica e filosófica.*
