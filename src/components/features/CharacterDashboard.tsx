@@ -1,13 +1,63 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import type { Character } from '../../types';
-import { Shield, Users, Scroll, Quote, Activity, Anchor } from 'lucide-react';
+import { Shield, Users, Scroll, Activity, Anchor, GitMerge, FileText } from 'lucide-react';
+import { LineageTree } from './analytics/LineageTree';
+import { runAnalytics } from '../../services/analyticsService';
+import { characters } from '../../data/characters';
 
 interface DashboardProps {
     character: Character;
     onBack: () => void;
+    onReadParva?: (parvaSlug: string) => void;
 }
 
-export const CharacterDashboard: React.FC<DashboardProps> = ({ character, onBack }) => {
+export const CharacterDashboard: React.FC<DashboardProps> = ({ character, onBack, onReadParva }) => {
+    const { graph } = useMemo(() => {
+        const fullGraph = runAnalytics(characters).graph;
+        
+        // Adjacency list for fast BFS
+        const adj = new Map<string, Set<string>>();
+        fullGraph.links.forEach(l => {
+            if (l.type === 'family') {
+                const src = typeof l.source === 'object' ? (l.source as any).id : l.source;
+                const tgt = typeof l.target === 'object' ? (l.target as any).id : l.target;
+                if (!adj.has(src)) adj.set(src, new Set());
+                if (!adj.has(tgt)) adj.set(tgt, new Set());
+                adj.get(src)!.add(tgt);
+                adj.get(tgt)!.add(src);
+            }
+        });
+
+        // BFS up to depth 2
+        const connectedIds = new Set<string>([character.id]);
+        let currentLevel = [character.id];
+        
+        for (let depth = 0; depth < 2; depth++) {
+            const nextLevel: string[] = [];
+            for (const n of currentLevel) {
+                const neighbors = adj.get(n);
+                if (neighbors) {
+                    neighbors.forEach(neighbor => {
+                        if (!connectedIds.has(neighbor)) {
+                            connectedIds.add(neighbor);
+                            nextLevel.push(neighbor);
+                        }
+                    });
+                }
+            }
+            currentLevel = nextLevel;
+        }
+
+        const subNodes = fullGraph.nodes.filter(n => connectedIds.has(n.id));
+        const subLinks = fullGraph.links.filter(l => 
+            l.type === 'family' && 
+            connectedIds.has(typeof l.source === 'object' ? (l.source as any).id : l.source) && 
+            connectedIds.has(typeof l.target === 'object' ? (l.target as any).id : l.target)
+        );
+
+        return { graph: { nodes: subNodes, links: subLinks } };
+    }, [character.id]);
+
     return (
         <div className="animate-fade-in-up">
             <button
@@ -74,7 +124,7 @@ export const CharacterDashboard: React.FC<DashboardProps> = ({ character, onBack
                 {/* Middle Column: Analysis (Wide) */}
                 <div className="md:col-span-2 space-y-8">
                     {/* Deep Analysis */}
-                    <div className="bg-slate-800/50 p-6 md:p-8 rounded-lg border-l-4 border-epic-gold relative overflow-hidden">
+                    <div className="bg-slate-800/50 p-6 md:p-8 rounded-lg border-l-4 border-epic-gold relative overflow-hidden h-full flex flex-col justify-center">
                         <div className="absolute top-0 right-0 p-4 opacity-5 text-epic-gold">
                             <Scroll size={100} />
                         </div>
@@ -98,22 +148,6 @@ export const CharacterDashboard: React.FC<DashboardProps> = ({ character, onBack
                             </div>
                         </div>
                     </div>
-
-                    {/* Narrative Arc */}
-                    <div className="bg-slate-900/50 p-6 rounded border border-slate-800">
-                        <h3 className="text-xl font-serif text-slate-200 mb-4">Arco Narrativo</h3>
-                        <div className="flex flex-col md:flex-row gap-4 items-start md:items-center text-sm">
-                            <div className="flex-1 p-3 bg-slate-800 rounded">
-                                <div className="text-slate-500 uppercase text-xs mb-1">Início</div>
-                                {character.narrativeArc.beginning}
-                            </div>
-                            <div className="hidden md:block text-slate-600">→</div>
-                            <div className="flex-1 p-3 bg-slate-800 rounded border border-epic-gold/20">
-                                <div className="text-slate-500 uppercase text-xs mb-1">Fim / Destino</div>
-                                {character.narrativeArc.end}
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -122,11 +156,16 @@ export const CharacterDashboard: React.FC<DashboardProps> = ({ character, onBack
                 <h3 className="text-2xl font-serif text-slate-200 mb-6 border-b border-slate-800 pb-2">Linha do Tempo</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {character.timeline.map((event, i) => (
-                        <div key={i} className="group p-6 bg-slate-800/30 border border-slate-700 hover:border-epic-gold/50 transition-colors rounded-lg">
-                            <div className="text-epic-gold font-serif text-xl mb-2 group-hover:translate-x-1 transition-transform">{event.title}</div>
+                        <div 
+                            key={i} 
+                            onClick={() => event.parvaSlug && onReadParva && onReadParva(event.parvaSlug)}
+                            className={`group p-6 bg-slate-800/30 border border-slate-700 transition-colors rounded-lg relative ${event.parvaSlug ? 'cursor-pointer hover:border-epic-gold/50 hover:bg-slate-800/50 hover:shadow-lg' : ''}`}
+                        >
+                            <div className={`text-epic-gold font-serif text-xl mb-2 ${event.parvaSlug ? 'group-hover:translate-x-1 transition-transform' : ''}`}>{event.title}</div>
                             <p className="text-slate-400 text-sm mb-4 leading-relaxed">{event.description}</p>
-                            <div className="text-xs text-slate-500 border-t border-slate-700 pt-3 italic">
-                                "{event.significance}"
+                            <div className="text-xs text-slate-500 border-t border-slate-700 pt-3 italic flex justify-between items-center">
+                                <span>"{event.significance}"</span>
+                                {event.parvaSlug && <span className="text-epic-bronze text-[10px] uppercase font-bold tracking-widest opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">Ler Trecho <Scroll size={12}/></span>}
                             </div>
                         </div>
                     ))}
@@ -153,18 +192,40 @@ export const CharacterDashboard: React.FC<DashboardProps> = ({ character, onBack
                     </div>
                 </div>
 
-                {/* Quotes */}
+                {/* Important Events (Replacing Quotes) */}
                 <div>
                     <h3 className="flex items-center gap-2 text-xl font-serif text-slate-200 mb-6 border-b border-slate-800 pb-2">
-                        <Quote size={20} className="text-epic-bronze" /> Citações
+                        <FileText size={20} className="text-epic-bronze" /> Eventos Importantes (Arco Narrativo)
                     </h3>
-                    <div className="space-y-6">
-                        {character.quotes.map((quote, i) => (
-                            <blockquote key={i} className="border-l-2 border-epic-gold pl-4 text-slate-300 italic font-serif text-lg leading-relaxed">
-                                {quote}
-                            </blockquote>
-                        ))}
+                    <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
+                        <div className="flex gap-4 items-start p-3 bg-slate-800/30 rounded border border-slate-700/50">
+                            <div className="text-slate-500 uppercase text-xs font-bold tracking-widest w-24 shrink-0">Início</div>
+                            <div>{character.narrativeArc.beginning}</div>
+                        </div>
+                        {character.narrativeArc.middle && (
+                            <div className="flex gap-4 items-start p-3 bg-slate-800/30 rounded border border-slate-700/50">
+                                <div className="text-slate-500 uppercase text-xs font-bold tracking-widest w-24 shrink-0">Ápice</div>
+                                <div>{character.narrativeArc.middle}</div>
+                            </div>
+                        )}
+                        <div className="flex gap-4 items-start p-3 bg-slate-800/30 rounded border border-epic-gold/20">
+                            <div className="text-slate-500 uppercase text-xs font-bold tracking-widest w-24 shrink-0">Destino Final</div>
+                            <div>{character.narrativeArc.end}</div>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            {/* Lineage Tree Visualization */}
+            <div className="mt-16 mb-8 pt-12 border-t border-slate-800">
+                <h3 className="flex items-center justify-center gap-3 text-2xl font-serif text-slate-200 mb-8">
+                    <GitMerge className="text-epic-gold" /> Árvore Genealógica (Foco: {character.name})
+                </h3>
+                <div className="w-full h-[400px] border border-slate-800 rounded-xl overflow-hidden shadow-2xl relative">
+                    <div className="absolute top-4 right-4 bg-slate-900/90 text-slate-300 px-3 py-1 rounded-full text-xs border border-slate-700 z-10">
+                        Mostrando conexões dinâmicas diretas (1 a 2 graus de distanciamento)
+                    </div>
+                    <LineageTree data={graph} />
                 </div>
             </div>
 

@@ -1,11 +1,11 @@
 import type { Parva, ParvaDetail } from '../types/library';
 
-const BASE_URL = '/data/parvas.json';
+const BASE = import.meta.env.BASE_URL;
 
 export const libraryService = {
     async getAllParvas(): Promise<Parva[]> {
         try {
-            const response = await fetch(BASE_URL);
+            const response = await fetch(`${BASE}data/parvas.json`);
             if (!response.ok) {
                 throw new Error('Falha ao carregar a biblioteca do Mahabharata');
             }
@@ -19,7 +19,7 @@ export const libraryService = {
 
     async getParvaBySlug(slug: string): Promise<ParvaDetail> {
         try {
-            const response = await fetch(`/data/parvas/${slug}.json`);
+            const response = await fetch(`${BASE}data/parvas/${slug}.json`);
             if (!response.ok) {
                 throw new Error('Falha ao carregar o texto sagrado');
             }

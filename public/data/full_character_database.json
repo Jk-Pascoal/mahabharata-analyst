@@ -1119,5 +1119,1049 @@
             "end": "O imperador lendário."
         },
         "quotes": []
+    },
+    {
+        "id": "pandu",
+        "name": "Pandu",
+        "epithets": ["Pandu-nripa", "Rei Pálido", "Filho de Ambalika"],
+        "lineage": {
+            "father": "Vichitravirya (legal) / Vyasa (biológico)",
+            "mother": "Ambalika",
+            "clan": "Kuru",
+            "dynasty": "Lunar (Chandravansha)"
+        },
+        "affiliations": ["Hastinapura", "Pandavas"],
+        "role": ["Rei de Hastinapura", "Pai dos Cinco Pandavas", "Conquistador"],
+        "attributes": {
+            "symbolic": ["Tez Pálida (maldição)", "Arco e Flecha", "Coroa Renunciada"],
+            "visual": ["Rei de pele pálida", "Guerreiro habilidoso"]
+        },
+        "psychology": {
+            "virtues": ["Coragem marcial excepcional", "Senso de honra", "Amor por suas esposas"],
+            "flaws": ["Impulsividade (matou Rishi Kindama)", "Incapacidade de controlar os desejos", "Culpa paralisante"],
+            "analysis": "Pandu representa o rei tragicamente interrompido. Sua maldição — morrer se tocar qualquer mulher com desejo — é ao mesmo tempo punição e oportunidade: ela o afasta do trono e o força a uma vida de retiro na floresta, onde seus filhos nascem através do poder dos mantras de Kunti. Pandu é o pai ausente por excelência, cujo destino molda os Pandavas mesmo sem estar presente. Sua morte ao ceder ao desejo com Madri resume sua tragédia: um homem poderoso destruído pela incapacidade de resistir à sua própria natureza."
+        },
+        "timeline": [
+            {
+                "title": "Coroação em Hastinapura",
+                "description": "Torna-se rei após a incapacidade de seus irmãos cegos/albinos, tornando-se o soberano mais glorioso de sua geração.",
+                "significance": "Estabelece os Pandavas como a linhagem legítima do trono."
+            },
+            {
+                "title": "A Maldição de Kindama",
+                "description": "Mata acidentalmente o sábio Kindama e sua esposa disfarçados de cervos durante o acasalamento. O sábio o amaldiçoa: morrerá no momento em que tocar qualquer mulher com desejo.",
+                "significance": "O evento pivô que tira Pandu do trono e inicia a saga dos Pandavas."
+            },
+            {
+                "title": "Morte com Madri",
+                "description": "Vencido pelo desejo pela beleza de Madri na primavera, a toca apaixonadamente e morre instantaneamente. Madri sobe à pira funeral por sentimento de culpa.",
+                "significance": "A maldição se cumpre; os Pandavas ficam órfãos e retornam a Hastinapura."
+            }
+        ],
+        "relationships": [
+            { "name": "Kunti", "relation": "Primeira esposa", "details": "Mãe de Yudhishthira, Bhima e Arjuna. Kunti usou seus mantras divinos para conceber os filhos." },
+            { "name": "Madri", "relation": "Segunda esposa", "details": "Mãe de Nakula e Sahadeva. Morreu na pira de Pandu por sentimento de culpa." },
+            { "name": "Dhritarashtra", "relation": "Irmão mais velho (cego)", "details": "O irmão que herdou o trono de fato por ser primogênito, mas cuja cegueira o tornava inelegível." },
+            { "name": "Yudhishthira", "relation": "Filho primogênito", "details": "Filho legal e espiritual de Yama (Dharma), o mais virtuoso dos Pandavas." }
+        ],
+        "narrativeArc": {
+            "beginning": "O rei glorioso de Hastinapura, conquistador e líder justo.",
+            "end": "O rei maldito que morre na floresta, deixando cinco filhos órfãos para um destino épico."
+        },
+        "quotes": [
+            "\"Não posso ser rei de um reino conquistado pela espada quando não posso nem tocar minha própria esposa.\""
+        ]
+    },
+    {
+        "id": "madri",
+        "name": "Madri",
+        "epithets": ["Princesa de Madra", "Mãe dos Gêmeos", "Sahadeva's Mother"],
+        "lineage": {
+            "father": "Rei de Madra",
+            "mother": "Desconhecida",
+            "clan": "Madra",
+            "dynasty": "Madra"
+        },
+        "affiliations": ["Hastinapura", "Pandavas"],
+        "role": ["Rainha de Hastinapura", "Mãe de Nakula e Sahadeva"],
+        "attributes": {
+            "symbolic": ["Beleza fatal", "Sacrifício", "Lealdade"],
+            "visual": ["Rainha de beleza incomparável", "Vestimentas de Madra"]
+        },
+        "psychology": {
+            "virtues": ["Amor abnegado pelos filhos", "Coragem diante da morte", "Lealdade ao marido"],
+            "flaws": ["Ingenuidade (não percebeu o perigo de tentar Pandu)", "Culpa devastadora"],
+            "analysis": "Madri é o instrumento involuntário da morte de Pandu. Sua beleza na primavera quebrou a resistência do rei maldito. Sentindo-se responsável, recusou a sobreviver ao marido e subiu à pira funeral, deixando seus filhos Nakula e Sahadeva ao cuidado de Kunti. Ela representa a tragédia silenciosa — uma mulher sem falha moral que se pune por um resultado que escapou ao seu controle."
+        },
+        "timeline": [
+            {
+                "title": "Chegada a Hastinapura",
+                "description": "Dada em casamento a Pandu como segunda esposa, trazida do reino de Madra.",
+                "significance": "Fortalece a aliança política de Hastinapura com o norte."
+            },
+            {
+                "title": "Nascimento dos Gêmeos",
+                "description": "Usa o mantra concedido por Kunti para invocar os Ashwins (divindades médicas gêmeas), dando à luz Nakula e Sahadeva.",
+                "significance": "Os filhos mais belos dos Pandavas, versados em medicina e cavalaria."
+            },
+            {
+                "title": "Morte na Pira de Pandu",
+                "description": "Após a morte de Pandu (causada indiretamente por sua beleza), escolhe morrer com ele como ato de expiação, pedindo a Kunti que cuide de seus filhos.",
+                "significance": "Define o destino de Nakula e Sahadeva como filhos adotivos de Kunti."
+            }
+        ],
+        "relationships": [
+            { "name": "Pandu", "relation": "Marido", "details": "O rei a quem inadvertidamente causou a morte; morreu por lealdade a ele." },
+            { "name": "Kunti", "relation": "Co-esposa", "details": "Confiou seus filhos aos cuidados de Kunti ao morrer." },
+            { "name": "Nakula", "relation": "Filho", "details": "O mais belo dos Pandavas, versado em espada e cavalos." },
+            { "name": "Sahadeva", "relation": "Filho", "details": "O mais sábio dos Pandavas, conhecedor de astrologia e medicina." }
+        ],
+        "narrativeArc": {
+            "beginning": "A bela princesa de Madra, trazida como segunda rainha.",
+            "end": "A mãe que sacrifica a própria vida por culpa e amor, confiando seus filhos à rival."
+        },
+        "quotes": [
+            "\"Cuide dos meus filhos como se fossem seus, Kunti. Eles são inocentes.\""
+        ]
+    },
+    {
+        "id": "balarama",
+        "name": "Balarama",
+        "epithets": ["Halayudha", "Rohini-nandana", "Sankarshana", "Baladeva", "Rama"],
+        "lineage": {
+            "father": "Vasudeva",
+            "mother": "Rohini",
+            "clan": "Yadava",
+            "dynasty": "Lunar"
+        },
+        "affiliations": ["Dwarka", "Clã Vrishni", "Yadavas"],
+        "role": ["Guerreiro", "Professor de Mace", "Irmão de Krishna", "Avatar de Shesha"],
+        "attributes": {
+            "symbolic": ["Arado (Hala)", "Maza (Musala)", "Palmeira branca", "Serpente Shesha"],
+            "visual": ["Tez clara/branca em contraste com Krishna", "Olhos vermelhos (vinho)"]
+        },
+        "psychology": {
+            "virtues": ["Força física incomparável", "Lealdade familiar", "Respeito pela tradição brahmânica"],
+            "flaws": ["Temperamento irascível", "Parcialidade por Duryodhana (seu discípulo)", "Tendência ao alcoolismo"],
+            "analysis": "Balarama é a força sem astúcia, o dharma sem diplomacia. Como guru de Duryodhana na luta de maza, ele sentia obrigação de apoiar seu discípulo. Como irmão de Krishna, sabia que os Pandavas eram justos. Esse conflito o paralisou: ele escolheu uma peregrinação ao Saraswati em vez de lutar em Kurukshetra. Balarama representa o guerreiro que não consegue resolver seus lealdades divididas e se afasta do campo histórico, deixando o palco para Krishna. Ele é o avatar da terra (Shesha/serpente da terra), em contraste com Krishna, o avatar do céu."
+        },
+        "timeline": [
+            {
+                "title": "Destruição de Pralamba",
+                "description": "Mata o demônio Pralamba que tentou raptá-lo durante brincadeiras na infância em Vrindavan.",
+                "significance": "Demonstra sua força divina já na infância."
+            },
+            {
+                "title": "Professor de Bhima e Duryodhana",
+                "description": "Torna-se o guru de ambos na arte da luta com maça, o que cria um conflito de lealdades na guerra.",
+                "significance": "Cria o dilema: ambos seus discípulos mais avançados se enfrentarão no combate final."
+            },
+            {
+                "title": "Ausência em Kurukshetra",
+                "description": "Recusa-se a lutar ao lado de qualquer facção, preferindo uma peregrinação ao longo do Saraswati.",
+                "significance": "Simboliza o retiro da força bruta diante de um conflito que transcende a justiça marcial simples."
+            },
+            {
+                "title": "Protesto pelo golpe de Bhima",
+                "description": "Fica furioso quando Bhima mata Duryodhana com um golpe ilegal nas coxas, exigindo punição para Bhima.",
+                "significance": "Krishna o acalma; a vitória dos Pandavas era necessária para o Dharma maior."
+            }
+        ],
+        "relationships": [
+            { "name": "Krishna", "relation": "Irmão mais novo", "details": "Inseparáveis, mas Balarama muitas vezes discorda das táticas de Krishna." },
+            { "name": "Duryodhana", "relation": "Discípulo na maza", "details": "Lealdade guru-discípulo que conflitou com o dharma cósmico." },
+            { "name": "Revati", "relation": "Esposa", "details": "Princesa de uma era anterior; casamento marcou uma fusão de eras." },
+            { "name": "Bhima", "relation": "Discípulo na maza", "details": "Outro de seus alunos, cujo golpe final ele condenou como desonroso." }
+        ],
+        "narrativeArc": {
+            "beginning": "O irmão mais velho e mais forte dos Yadavas, pilar de Dwarka.",
+            "end": "O guerreiro que se retira do conflito histórico, incapaz de reconciliar lealdades. Morre de tristeza após a guerra dos Yadavas."
+        },
+        "quotes": [
+            "\"A força sem justiça é violência. Mas a justiça sem força é impotente.\"",
+            "\"Bhima matou Duryodhana com um golpe nas coxas — isso é traição, não vitória!\""
+        ]
+    },
+    {
+        "id": "shikhandi",
+        "name": "Shikhandi",
+        "epithets": ["Reencarnação de Amba", "O Transgênero Divino", "O Instrumento da Morte de Bhishma"],
+        "lineage": {
+            "father": "Drupada",
+            "mother": "Rainha de Panchala",
+            "clan": "Panchala",
+            "dynasty": "Lunar"
+        },
+        "affiliations": ["Panchala", "Pandavas"],
+        "role": ["Guerreiro", "Instrumento do Dharma", "Reencarnação de Amba"],
+        "attributes": {
+            "symbolic": ["Transformação de gênero", "Vingança redimida", "Karma intergeracional"],
+            "visual": ["Guerreiro de aparência ambígua", "Arqueiro"]
+        },
+        "psychology": {
+            "virtues": ["Determinação inabalável herdada de Amba", "Coragem de enfrentar o invencível Bhishma"],
+            "flaws": ["Identidade marcada pela missão de outra vida", "Conflito interno sobre sua natureza"],
+            "analysis": "Shikhandi é um dos personagens mais fascinantes do Mahabharata por sua complexidade de gênero e karma. Nascida mulher (como Shikhandini), recebeu a masculinidade de um Yaksha após trocar identidades. Bhishma, que jurara nunca lutar contra quem nasceu mulher, recusou-se a atacar Shikhandi — e essa recusa custou-lhe a vida. Shikhandi é o instrumento pelo qual o karma de Amba se completa: uma vingança que atravessa mortes e renascimentos. Representa como o Dharma usa instrumentos improváveis para corrigir injustiças antigas."
+        },
+        "timeline": [
+            {
+                "title": "Nascimento como Shikhandini",
+                "description": "Nasce como filha de Drupada, mas o rei a cria como filho (temendo profecias).",
+                "significance": "Uma das primeiras narrativas de ambiguidade de gênero na literatura épica mundial."
+            },
+            {
+                "title": "Troca com o Yaksha Sthuna",
+                "description": "Troca sua feminilidade com o yaksha Sthuna para poder ser aceito como guerreiro e casar-se.",
+                "significance": "Torna-se fisicamente masculino, completando a preparação para sua missão de karma."
+            },
+            {
+                "title": "O Escudo contra Bhishma",
+                "description": "Arjuna usa Shikhandi como escudo no décimo dia de Kurukshetra. Bhishma recusa-se a atirar em quem nasceu mulher.",
+                "significance": "O momento pelo qual Shikhandi existia: a morte de Bhishma que a reencarnação de Amba prometera."
+            }
+        ],
+        "relationships": [
+            { "name": "Amba", "relation": "Vida anterior", "details": "A princesa de Kashi que Bhishma impediu de casar, e que jurou vingança." },
+            { "name": "Bhishma", "relation": "Alvo do karma", "details": "O guerreiro que recusou atacar Shikhandi por honra, e morreu por isso." },
+            { "name": "Arjuna", "relation": "Aliado tático", "details": "Usou Shikhandi como proteção moral para finalmente derrubar Bhishma." },
+            { "name": "Drupada", "relation": "Pai", "details": "O rei que o criou como filho por necessidade dinástica." }
+        ],
+        "narrativeArc": {
+            "beginning": "Nascido(a) para cumprir o karma de uma vida anterior.",
+            "end": "Cumpre a missão — Bhishma cai — e morre na noite de massacre de Ashwatthama."
+        },
+        "quotes": [
+            "\"Fui Amba. Serei Amba de novo se precisar. Bhishma não escapará do que deve.\""
+        ]
+    },
+    {
+        "id": "narada",
+        "name": "Narada",
+        "epithets": ["Devarshi", "Tri-loka-sanchari", "Narayan-bhakta", "O Portador de Notícias"],
+        "lineage": {
+            "father": "Brahma",
+            "mother": "—",
+            "clan": "Celestial",
+            "dynasty": "—"
+        },
+        "affiliations": ["Svarga (Céu)", "Todos os três mundos"],
+        "role": ["Sábio Divino", "Narrador", "Instigador Cósmico", "Devoto de Vishnu"],
+        "attributes": {
+            "symbolic": ["Vina (instrumento musical)", "Omnipresença", "Notícias divinas"],
+            "visual": ["Sábio de barba branca com vina", "Sempre sorrindo"]
+        },
+        "psychology": {
+            "virtues": ["Devoção pura a Vishnu", "Onisciência sobre as três esferas", "Capacidade de mediar entre mundos"],
+            "flaws": ["Tendência a instigar conflitos para acelerar o Dharma", "Aparente indiscrição que esconde propósito divino"],
+            "analysis": "Narada é o catalisador narrativo do cosmos. Ele aparece em momentos cruciais para acelerar o que deve acontecer. O que parece indiscrição ou intromissão é, na verdade, participação divina no fluxo do Dharma. Ele é o link entre os mortais e o divino, entre o passado e o futuro. No Mahabharata, ele aparece para alertar, provocar ou iluminar em pontos-chave da narrativa. Representa como o conhecimento, quando compartilhado no momento certo, pode mudar o curso da história."
+        },
+        "timeline": [
+            {
+                "title": "Alerta a Kamsa",
+                "description": "Revelou a Kamsa a profecia de que o oitavo filho de Devaki o mataria, desencadeando a perseguição a Krishna.",
+                "significance": "Narada entende que revelar a profecia acelera o plano divino."
+            },
+            {
+                "title": "Visita a Yudhishthira",
+                "description": "Aconselha Yudhishthira sobre dharma régio e as histórias de reis que falharam por negligenciar seus deveres.",
+                "significance": "Fonte de sabedoria cosmológica que guia as decisões dos Pandavas."
+            },
+            {
+                "title": "Narrador de Histórias Épicas",
+                "description": "Narra o Narayaniya (parte do Shanti Parva) e muitos outros sub-relatos.",
+                "significance": "Um dos grandes narradores dentro da narrativa do Mahabharata."
+            }
+        ],
+        "relationships": [
+            { "name": "Brahma", "relation": "Pai/Criador", "details": "Narada nasceu da mente de Brahma, como filho-espiritual." },
+            { "name": "Vishnu/Krishna", "relation": "Devoto supremo", "details": "Sua devoção é o arquétipo do Bhakti puro." },
+            { "name": "Yudhishthira", "relation": "Aconselhado", "details": "Frequentemente o instrui sobre dharma régio e cosmologia." }
+        ],
+        "narrativeArc": {
+            "beginning": "O sábio eterno que atravessa os três mundos.",
+            "end": "Permanece eterno — Narada não tem fim, apenas transições entre eras."
+        },
+        "quotes": [
+            "\"Narayan! Narayan!\" (sua saudação característica)",
+            "\"Compartilho apenas o que deve ser sabido no momento certo.\""
+        ]
+    },
+    {
+        "id": "rukmini",
+        "name": "Rukmini",
+        "epithets": ["Vaidarbhi", "Princesa de Vidarbha", "Lakshmi Encarnada", "Esposa Principal de Krishna"],
+        "lineage": {
+            "father": "Rei Bhishmaka de Vidarbha",
+            "mother": "Desconhecida",
+            "clan": "Vidarbha",
+            "dynasty": "Yadava (por casamento)"
+        },
+        "affiliations": ["Vidarbha", "Dwarka"],
+        "role": ["Rainha Principal de Dwarka", "Avatar de Lakshmi", "Devota de Krishna"],
+        "attributes": {
+            "symbolic": ["Lótus", "Lakshmi", "Amor devocional (Bhakti)"],
+            "visual": ["Beleza incomparável", "Vestimentas reais de Vidarbha"]
+        },
+        "psychology": {
+            "virtues": ["Devoção absoluta a Krishna", "Inteligência e iniciativa (escreveu a carta pedindo ser raptada)", "Dignidade real"],
+            "flaws": ["Orgulho de ser a rainha principal", "Ciúme das outras esposas de Krishna"],
+            "analysis": "Rukmini representa o amor ativo e inteligente. Ela não esperou passivamente — escreveu a Krishna pedindo que a raptasse antes do casamento forçado com Shishupala. Esse gesto de iniciativa feminina é único no épico. Como Lakshmi encarnada, ela é a prosperidade e graça que acompanha o Avatar. Sua relação com Krishna é mais próxima do amor divino do que do romance mortal."
+        },
+        "timeline": [
+            {
+                "title": "A Carta a Krishna",
+                "description": "Envia uma carta secreta a Krishna pedindo que a roube antes do casamento com Shishupala, prometendo ser sua esposa devota.",
+                "significance": "Uma das demonstrações mais ousadas de agência feminina no Mahabharata."
+            },
+            {
+                "title": "O Rapto de Rukmini",
+                "description": "Krishna a rapta do templo de Gauri enquanto ela ia rezar, antes da cerimônia de casamento com Shishupala.",
+                "significance": "O 'rapto' foi na verdade uma elopement consentida — ela o escolheu."
+            },
+            {
+                "title": "Vida em Dwarka",
+                "description": "Torna-se a rainha principal de Dwarka entre as dezesseis mil esposas de Krishna.",
+                "significance": "Representa a relação primária do Avatar com a divindade feminina."
+            }
+        ],
+        "relationships": [
+            { "name": "Krishna", "relation": "Marido e senhor", "details": "Sua devoção é o modelo do amor bhakti conjugal." },
+            { "name": "Rukmi", "relation": "Irmão", "details": "Nunca perdoou o rapto da irmã; tentou impedir o casamento." },
+            { "name": "Pradyumna", "relation": "Filho", "details": "Filho principal de Krishna e Rukmini, reencarnação de Kamadeva." },
+            { "name": "Satyabhama", "relation": "Co-esposa", "details": "Relação tensa mas respeitosa com a segunda esposa principal de Krishna." }
+        ],
+        "narrativeArc": {
+            "beginning": "A princesa que escolheu ativamente seu destino ao invés de esperar por ele.",
+            "end": "A rainha que se imola na pira de Krishna após a destruição dos Yadavas."
+        },
+        "quotes": [
+            "\"Se meu karma é real, que Krishna me tome como esposa antes que seja tarde demais.\""
+        ]
+    },
+    {
+        "id": "indra",
+        "name": "Indra",
+        "epithets": ["Shakra", "Devaraja", "Vasava", "Purandara", "Mahendra", "Pai de Arjuna"],
+        "lineage": {
+            "father": "Kashyapa",
+            "mother": "Aditi",
+            "clan": "Celestial (Deva)",
+            "dynasty": "—"
+        },
+        "affiliations": ["Svarga (Indraloka)", "Devas"],
+        "role": ["Rei dos Deuses", "Pai Divino de Arjuna", "Deus da Tempestade e Guerra"],
+        "attributes": {
+            "symbolic": ["Vajra (Raio)", "Airavata (elefante branco)", "Trono de Amaravati"],
+            "visual": ["Rei majestoso de quatro braços", "Montado em Airavata"]
+        },
+        "psychology": {
+            "virtues": ["Poder e grandeza incomparáveis", "Amor pelo filho Arjuna", "Proteção dos Devas"],
+            "flaws": ["Arrogância de rei", "Ciúme e insegurança do poder (perseguiu muitos sábios e heróis)", "Ações moralmente questionáveis para proteger seu trono"],
+            "analysis": "Indra no Mahabharata é tanto protetor quanto antagonista menor. Como pai de Arjuna, seu amor pelo filho é genuíno — presenteou-o com armas divinas, treinou-o no Svarga. Mas ele também agiu contra Karna (pedindo sua armadura/brincos), enfraquecendo o rival de seu filho. Indra representa o poder divino que não é puramente ético, mas serve ao propósito cósmico maior."
+        },
+        "timeline": [
+            {
+                "title": "Paternidade de Arjuna",
+                "description": "Kunti o invoca com seu mantra, concebendo Arjuna — o guerreiro mais habilidoso do épico.",
+                "significance": "Arjuna herda a coragem e habilidade marcial do rei dos deuses."
+            },
+            {
+                "title": "O Pedido da Armadura de Karna",
+                "description": "Disfarçado de brâhmane, pede a Karna sua armadura divina (Kavach) e brincos (Kundala). Karna os entrega sabendo o que perde.",
+                "significance": "Indra protege Arjuna ao enfraquecer Karna, mas o ato é moralmente ambíguo."
+            },
+            {
+                "title": "Treinamento de Arjuna no Svarga",
+                "description": "Arjuna passa um ano no céu de Indra recebendo treinamento em armas divinas, música e dança.",
+                "significance": "Arjuna adquire as Divyastras que decide a guerra."
+            }
+        ],
+        "relationships": [
+            { "name": "Arjuna", "relation": "Filho", "details": "Protege Arjuna ativamente ao longo do épico." },
+            { "name": "Karna", "relation": "Antagonista/Rival de Arjuna", "details": "Enganou Karna para tomar sua armadura, tornando-o vulnerável." },
+            { "name": "Krishna", "relation": "Aliado divino", "details": "Coopera com o plano de Krishna para restaurar o Dharma." }
+        ],
+        "narrativeArc": {
+            "beginning": "O rei todo-poderoso dos deuses.",
+            "end": "O pai que vê seu filho triunfar em Kurukshetra graças ao seu apoio divino."
+        },
+        "quotes": [
+            "\"Pede o que queres, Karna. Sou Indra, e satisfaço pedidos.\" (ao enganar Karna)"
+        ]
+    },
+    {
+        "id": "surya",
+        "name": "Surya",
+        "epithets": ["Vivasvat", "Aditya", "Deus-Sol", "Pai de Karna", "Martanda"],
+        "lineage": {
+            "father": "Kashyapa",
+            "mother": "Aditi",
+            "clan": "Celestial (Deva)",
+            "dynasty": "—"
+        },
+        "affiliations": ["Solar (Suryaloka)", "Devas"],
+        "role": ["Deus do Sol", "Pai Biológico de Karna", "Fonte de Luz e Vida"],
+        "attributes": {
+            "symbolic": ["Kavach e Kundala (armadura solar e brincos dados a Karna)", "Ratha (carruagem solar)", "Sete cavalos brancos"],
+            "visual": ["Radiância dourada", "Carruagem de sete cavalos atravessando o céu"]
+        },
+        "psychology": {
+            "virtues": ["Amor pelo filho Karna", "Honestidade divina", "Generosidade"],
+            "flaws": ["Impotência diante do destino de Karna", "Incapacidade de proteger o filho dos enganos de Indra"],
+            "analysis": "Surya representa o amor paterno impotente. Ele amou Karna profundamente, concedendo-lhe a armadura e brincos divinos como proteção. Quando soube do plano de Indra de pedir a armadura de Karna, alertou o filho em sonho — mas Karna, por seu código de generosidade, recusou guardar a armadura. Surya é o pai que não pode salvar o filho de seu próprio caráter nobre."
+        },
+        "timeline": [
+            {
+                "title": "União com Kunti",
+                "description": "Kunti invoca Surya com um mantra antes de entender suas consequências. Karna nasce com armadura divina e brincos.",
+                "significance": "O nascimento de Karna começa a tragédia mais bela do épico."
+            },
+            {
+                "title": "Alerta a Karna",
+                "description": "Aparece no sonho de Karna para alertá-lo do plano de Indra de pedir sua armadura. Karna agradece mas decide manter seu voto de dar.",
+                "significance": "Demonstra o amor paterno de Surya e o código inabalável de Karna."
+            }
+        ],
+        "relationships": [
+            { "name": "Karna", "relation": "Filho", "details": "Seu filho mais amado, nascido de uma união não planejada com Kunti." },
+            { "name": "Kunti", "relation": "Mãe de seu filho", "details": "União divina que produziu o herói mais trágico do épico." },
+            { "name": "Indra", "relation": "Irmão cósmico/antagonista", "details": "Ambos são filhos de Aditi, mas Indra trabalhou contra o filho de Surya." }
+        ],
+        "narrativeArc": {
+            "beginning": "O deus-sol que gerou o filho mais glorioso.",
+            "end": "O pai que chora a morte do filho de longe, sem poder intervir no Dharma."
+        },
+        "quotes": [
+            "\"Filho, devolve aquela armadura a Indra e pede em troca a Shakti que ninguém pode sobreviver. Ele terá que aceitar.\""
+        ]
+    },
+    {
+        "id": "yuyutsu",
+        "name": "Yuyutsu",
+        "epithets": ["O Único Kaurava Virtuoso", "Filho da Vaishya"],
+        "lineage": {
+            "father": "Dhritarashtra",
+            "mother": "Uma serviçal Vaishya",
+            "clan": "Kuru",
+            "dynasty": "Lunar"
+        },
+        "affiliations": ["Hastinapura", "Pandavas (durante a guerra)"],
+        "role": ["Príncipe Kaurava", "Único Kaurava que sobreviveu", "Guerreiro do lado Pandava"],
+        "attributes": {
+            "symbolic": ["Consciência moral dentro da corrupção", "O justo entre os ímpios"],
+            "visual": ["Guerreiro Kaurava com aparência nobre"]
+        },
+        "psychology": {
+            "virtues": ["Coragem moral extraordinária (desafiou sua própria família)", "Senso de justiça inato", "Integridade acima da lealdade familiar"],
+            "flaws": ["Posição eternamente ambígua — nem totalmente aceito pelos Pandavas, nem pelos Kauravas"],
+            "analysis": "Yuyutsu é o personagem mais subestimado do Mahabharata. Filho de Dhritarashtra com uma vaishya, ele é o único dos Kauravas que escolheu o lado certo. Quando Yudhishthira perguntou publicamente quem desejava mudar de lado antes da batalha, apenas Yuyutsu se levantou. Esse ato de coragem moral solitária — enfrentar 99 irmãos e escolher o dharma — é um dos momentos mais belos do épico. Ele sobreviveu à guerra e ajudou na administração do reino."
+        },
+        "timeline": [
+            {
+                "title": "A Escolha antes de Kurukshetra",
+                "description": "Quando Yudhishthira pediu que qualquer um que desejasse mudar de lado o fizesse, Yuyutsu foi o único Kaurava a cruzar para o lado dos Pandavas.",
+                "significance": "O momento mais corajoso de qualquer personagem menor no épico."
+            },
+            {
+                "title": "Sobrevivência à Guerra",
+                "description": "É um dos poucos guerreiros que sobrevive à guerra de Kurukshetra.",
+                "significance": "O único filho de Dhritarashtra a ver o novo reino Pandava."
+            },
+            {
+                "title": "Administração do Reino",
+                "description": "Após a guerra, ajuda Yudhishthira a administrar Hastinapura durante a ausência dos Pandavas em peregrinações.",
+                "significance": "Sua lealdade ao dharma é finalmente recompensada com responsabilidade real."
+            }
+        ],
+        "relationships": [
+            { "name": "Dhritarashtra", "relation": "Pai", "details": "Pai que nunca o reconheceu plenamente por ser filho de uma vaishya." },
+            { "name": "Duryodhana", "relation": "Meio-irmão", "details": "Abandonou Duryodhana por considerá-lo no lado errado do Dharma." },
+            { "name": "Yudhishthira", "relation": "Aliado", "details": "O rei cuja causa ele escolheu por convicção, não por laços de sangue." }
+        ],
+        "narrativeArc": {
+            "beginning": "O filho ilegítimo que cresce na sombra de 100 irmãos legítimos.",
+            "end": "O único Kaurava que fez a escolha certa e sobreviveu para testemunhá-la."
+        },
+        "quotes": [
+            "\"Meu dharma é mais forte que meu sangue.\""
+        ]
+    },
+    {
+        "id": "vikarna",
+        "name": "Vikarna",
+        "epithets": ["O Kaurava Justo", "A Voz da Consciência"],
+        "lineage": {
+            "father": "Dhritarashtra",
+            "mother": "Gandhari",
+            "clan": "Kuru",
+            "dynasty": "Lunar"
+        },
+        "affiliations": ["Hastinapura", "Kauravas"],
+        "role": ["Príncipe Kaurava", "Guerreiro", "Voz Moral no Jogo de Dados"],
+        "attributes": {
+            "symbolic": ["A consciência dentro do grupo", "Coragem moral solitária"],
+            "visual": ["Guerreiro Kaurava nobre"]
+        },
+        "psychology": {
+            "virtues": ["Senso de justiça genuíno", "Coragem de falar contra a própria família", "Honestidade"],
+            "flaws": ["Incapacidade de agir além das palavras", "Permanecer no lado Kaurava apesar de sua consciência"],
+            "analysis": "Vikarna é a tragédia da consciência sem poder. No jogo de dados, quando Draupadi foi apostada e Dushasana tentou despojá-la de seu sari, foi Vikarna — um Kaurava — que se levantou e declarou o jogo ilegal e a aposta inválida. Todos ignoraram. Ele lutou por Duryodhana na guerra mesmo discordando, e foi morto por Bhima. Bhima o matou com pesar, dizendo: 'Você era o único deles que tinha dharma.' Vikarna representa o homem que conhece a verdade mas não tem força para impô-la."
+        },
+        "timeline": [
+            {
+                "title": "O Discurso na Sabha",
+                "description": "Durante a humilhação de Draupadi, Vikarna foi o único Kaurava a defender que o jogo era ilegal e que uma esposa não pode ser apostada.",
+                "significance": "O único ato de coragem moral explícita dentro do campo Kaurava."
+            },
+            {
+                "title": "Morte em Kurukshetra",
+                "description": "Lutou lealmente por Duryodhana apesar de suas convicções. Foi morto por Bhima no campo de batalha.",
+                "significance": "Bhima declarou: 'Você era o único dos Kauravas com dharma. Mato você por dever, não por ódio.'"
+            }
+        ],
+        "relationships": [
+            { "name": "Draupadi", "relation": "Defendida por ele", "details": "O único Kaurava que tentou proteger sua dignidade no jogo de dados." },
+            { "name": "Duryodhana", "relation": "Irmão e lealdade forçada", "details": "Permaneceu leal apesar de discordar moralmente." },
+            { "name": "Bhima", "relation": "Matador e respeitador", "details": "Bhima o matou na guerra mas reconheceu sua virtude." }
+        ],
+        "narrativeArc": {
+            "beginning": "O príncipe Kaurava com consciência rara.",
+            "end": "Morto na guerra que sabia ser errada, cumprindo seu dever mesmo contra a consciência."
+        },
+        "quotes": [
+            "\"Draupadi foi apostada ilegalmente! Uma esposa em comum não pode ser colocada em jogo — declaro nulo este leilão!\""
+        ]
+    },
+    {
+        "id": "kichaka",
+        "name": "Kichaka",
+        "epithets": ["General de Virata", "O Opressor de Draupadi", "Sudeshnabhrata"],
+        "lineage": {
+            "father": "Desconhecido",
+            "mother": "Desconhecida",
+            "clan": "Matsya",
+            "dynasty": "—"
+        },
+        "affiliations": ["Reino de Matsya (Virata)"],
+        "role": ["General Supremo de Virata", "Antagonista durante o Virata Parva"],
+        "attributes": {
+            "symbolic": ["Poder sem dharma", "Lascívia destrutiva"],
+            "visual": ["Guerreiro enorme e poderoso"]
+        },
+        "psychology": {
+            "virtues": ["Força marcial genuína (considerado tão poderoso quanto Bhima)"],
+            "flaws": ["Lascívia descontrolada", "Abuso de poder", "Arrogância"],
+            "analysis": "Kichaka representa o poder temporal corrompido pela luxúria. Era o verdadeiro governante de Matsya (Virata era rei nominal). Quando viu Draupadi disfarçada como Sairandhri, não conseguiu controlar o desejo. Sua perseguição a ela culminou em uma agressão pública — ele a chutou na presença do rei. Bhima, disfarçado de cozinheiro, organizou uma armadilha e o matou na madrugada. Kichaka é o símbolo de que mesmo os mais poderosos são destruídos pela luxúria."
+        },
+        "timeline": [
+            {
+                "title": "Obsessão por Sairandhri",
+                "description": "Ao ver Draupadi disfarçada como serviçal, fica obcecado e passa a assediá-la constantemente.",
+                "significance": "Inicia o conflito central do Virata Parva."
+            },
+            {
+                "title": "A Agressão Pública",
+                "description": "Bate e chuta Draupadi na presença de Yudhishthira e dos outros disfarçados. Yudhishthira não pode agir sem se revelar.",
+                "significance": "Um dos momentos mais humilhantes de Draupadi, segundo apenas ao episódio da desrobage."
+            },
+            {
+                "title": "Morte pela Armadilha de Bhima",
+                "description": "Draupadi finge ceder ao desejo de Kichaka e o convida para um encontro noturno. Bhima ocupa o lugar e o mata com as próprias mãos.",
+                "significance": "A morte de Kichaka mantém o disfarce dos Pandavas e protege a honra de Draupadi."
+            }
+        ],
+        "relationships": [
+            { "name": "Virata", "relation": "Rei (nominalmente seu superior)", "details": "Kichaka era o poder real do reino." },
+            { "name": "Sudeshna", "relation": "Irmã", "details": "A rainha que o apresentou a Draupadi, sem imaginar as consequências." },
+            { "name": "Draupadi", "relation": "Vítima/Vingadora", "details": "Sua obsessão por Draupadi causou sua própria destruição." },
+            { "name": "Bhima", "relation": "Matador", "details": "Bhima o aniquilou como protetor de Draupadi." }
+        ],
+        "narrativeArc": {
+            "beginning": "O general mais poderoso do mundo, o poder real atrás do trono de Virata.",
+            "end": "Destruído pela luxúria em uma armadilha noturna."
+        },
+        "quotes": [
+            "\"Sairandhri, nenhuma mulher tão bela deve servir como criada. Seja minha.\""
+        ]
+    },
+    {
+        "id": "uttaraa",
+        "name": "Uttaraa",
+        "epithets": ["Filha de Virata", "Esposa de Abhimanyu", "Mãe de Parikshit"],
+        "lineage": {
+            "father": "Rei Virata de Matsya",
+            "mother": "Sudeshna",
+            "clan": "Matsya",
+            "dynasty": "Matsya (nascimento) / Kuru (casamento)"
+        },
+        "affiliations": ["Reino de Matsya", "Hastinapura"],
+        "role": ["Princesa de Matsya", "Esposa de Abhimanyu", "Mãe de Parikshit", "Sobrevivente"],
+        "attributes": {
+            "symbolic": ["Continuidade da linhagem Kuru", "Proteção divina no ventre"],
+            "visual": ["Jovem rainha em luto"]
+        },
+        "psychology": {
+            "virtues": ["Força diante da perda devastadora", "Amor profundo por Abhimanyu", "Fé em Krishna"],
+            "flaws": ["Jovem demais para carregar o peso do destino colocado sobre ela"],
+            "analysis": "Uttaraa é símbolo da continuidade. Enviuvada enquanto grávida quando Abhimanyu morreu armado em Chakravyuha, ela foi alvo do brahmastra de Ashwatthama — uma arma destinada a exterminar a descendência Pandava. Krishna entrou no ventre para proteger o feto, e Parikshit nasceu morto mas foi ressuscitado por Krishna. Sem Uttaraa, a linhagem Kuru terminaria. Ela é a portadora silenciosa do futuro."
+        },
+        "timeline": [
+            {
+                "title": "Estudante de Dança de Arjuna",
+                "description": "Durante o ano de disfarce em Virata, Arjuna (como Brihannala) lhe ensinou dança. A relação levou ao pedido de casamento.",
+                "significance": "Uma das histórias mais tocantes de destino tecido através de momentos cotidianos."
+            },
+            {
+                "title": "Casamento com Abhimanyu",
+                "description": "Casa-se com Abhimanyu como parte da aliança entre os Pandavas e Virata antes da guerra.",
+                "significance": "A aliança une dois reinos e prepara o terreno para o nascimento de Parikshit."
+            },
+            {
+                "title": "O Brahmastra de Ashwatthama",
+                "description": "Após a guerra, Ashwatthama dispara o Brahmastra contra o ventre de Uttaraa para exterminar os Pandavas.",
+                "significance": "Krishna entra no ventre para proteger Parikshit — o último milagre da presença divina no épico."
+            }
+        ],
+        "relationships": [
+            { "name": "Abhimanyu", "relation": "Marido", "details": "O jovem herói que morreu em Chakravyuha; ela carrega sua memória e seu filho." },
+            { "name": "Parikshit", "relation": "Filho", "details": "O único descendente Pandava, salvo por Krishna dentro do ventre." },
+            { "name": "Krishna", "relation": "Salvador", "details": "Entrou no ventre de Uttaraa para proteger Parikshit do brahmastra de Ashwatthama." },
+            { "name": "Arjuna", "relation": "Sogro/professor de dança", "details": "A ensinou dança durante o exílio disfarçado." }
+        ],
+        "narrativeArc": {
+            "beginning": "A princesa alegre de Matsya que aprende dança com um eunuco.",
+            "end": "A viúva jovem que carrega o futuro da humanidade em seu ventre."
+        },
+        "quotes": [
+            "\"Protege este filho, Krishna. Abhimanyu foi embora cedo demais. Este é tudo que resta dele.\""
+        ]
+    },
+    {
+        "id": "uttara",
+        "name": "Uttara",
+        "epithets": ["Bhuminjaya", "Príncipe de Matsya", "Discípulo de Arjuna"],
+        "lineage": {
+            "father": "Rei Virata",
+            "mother": "Sudeshna",
+            "clan": "Matsya",
+            "dynasty": "Matsya"
+        },
+        "affiliations": ["Reino de Matsya", "Pandavas"],
+        "role": ["Príncipe de Matsya", "Guerreiro", "Aliado dos Pandavas"],
+        "attributes": {
+            "symbolic": ["Jovem arrogância transformada em humildade", "Aliança política"],
+            "visual": ["Jovem príncipe em armadura de Matsya"]
+        },
+        "psychology": {
+            "virtues": ["Coragem jovem", "Lealdade após o aprendizado", "Abertura para aprender com o humilhado"],
+            "flaws": ["Arrogância inicial", "Covardismo diante dos Kauravas antes da revelação de Arjuna"],
+            "analysis": "Uttara começa como o herói de guerra jactatório que nunca viu batalha real. Quando encontra os Kauravas em Kurukshetra, entra em pânico e foge — até que seu cocheiro Brihannala (Arjuna disfarçado) revela sua identidade e o ensina a lutar com dignidade. Sua transformação espelha a do Arjuna do Gita: da hesitação ao dever. É morto por Shalya na batalha de Kurukshetra."
+        },
+        "timeline": [
+            {
+                "title": "A Fanfarronice",
+                "description": "Proclama bravamente que, se tivesse um cocheiro, atacaria os Kauravas sozinho para recuperar o gado de Virata.",
+                "significance": "Humor épico: o guerreiro de salão que logo encontrará sua covardia real."
+            },
+            {
+                "title": "Fuga e Revelação",
+                "description": "Ao ver as bandeiras Kauravas, entra em pânico e foge. Brihannala (Arjuna) o segura pelo cabelo e revela sua identidade.",
+                "significance": "A revelação de Arjuna marca o fim do ano de exílio incógnito dos Pandavas."
+            },
+            {
+                "title": "Morte em Kurukshetra",
+                "description": "Luta bravamente na guerra de Kurukshetra como aliado dos Pandavas; morto pelo terrível Shalya.",
+                "significance": "Seu sacrifice fortalece a aliança entre Matsya e os Pandavas."
+            }
+        ],
+        "relationships": [
+            { "name": "Arjuna/Brihannala", "relation": "Professor de dança e salvador", "details": "A revelação de Arjuna transformou Uttara de covarde em guerreiro real." },
+            { "name": "Abhimanyu", "relation": "Cunhado", "details": "Sua irmã Uttaraa casou com Abhimanyu." },
+            { "name": "Virata", "relation": "Pai", "details": "O rei cuja confiança ele tentava honrar." }
+        ],
+        "narrativeArc": {
+            "beginning": "O príncipe que falava de guerra sem conhecê-la.",
+            "end": "O guerreiro que encontrou sua coragem real quando importava."
+        },
+        "quotes": [
+            "\"Se eu tivesse um cocheiro, atacaria os Kauravas sozinho e recuperaria tudo!\"",
+            "\"(Após revelar-se Arjuna) Perdoe-me, Guru. Agora sei o que é o medo real.\""
+        ]
+    },
+    {
+        "id": "durvasa",
+        "name": "Durvasa",
+        "epithets": ["O Iracundo", "Rishi Durvasa", "Amaldiçoador Temível"],
+        "lineage": {
+            "father": "Atri",
+            "mother": "Anasuya",
+            "clan": "Sábio (Rishi)",
+            "dynasty": "—"
+        },
+        "affiliations": ["Ermitérios sagrados", "Todos os três mundos"],
+        "role": ["Sábio Irascível", "Concedente de Mantras", "Instrumento do Destino"],
+        "attributes": {
+            "symbolic": ["Ira controlada como poder espiritual", "Maldições e bênçãos", "Ascetismo extremo"],
+            "visual": ["Sábio de cabelos emaranhados e olhos flamejantes"]
+        },
+        "psychology": {
+            "virtues": ["Poder espiritual imensurável", "Generosidade com quem o agrada"],
+            "flaws": ["Ira descontrolada à menor ofensa", "Julgamentos rápidos e punições severas"],
+            "analysis": "Durvasa é o sábio cujas emoções têm consequências cósmicas. Sua maldição ou bênção muda destinos. No Mahabharata, ele concedeu a Kunti o mantra para invocar deuses — o evento que levou ao nascimento dos Pandavas. Mais tarde, aparece durante o exílio dos Pandavas com milhares de discípulos, testando sua hospitalidade. Krishna resolve a crise sobrenatural. Durvasa representa como a ira não é necessariamente negativa — às vezes é o instrumento que força o cosmos a se reorganizar."
+        },
+        "timeline": [
+            {
+                "title": "O Mantra dado a Kunti",
+                "description": "Satisfeito com a devoção de Kunti (então jovem servindo-o no palácio), concede-lhe o mantra Atharva que invoca qualquer deus.",
+                "significance": "O evento mais consequente de sua aparição: o mantra que gerou os cinco Pandavas."
+            },
+            {
+                "title": "Visita durante o Exílio",
+                "description": "Chega ao acampamento dos Pandavas com 10.000 discípulos, todos com fome. Draupadi havia acabado de usar o último grão do Akshaya Patra.",
+                "significance": "Krishna resolve a crise comendo o último grão de comida — saciando Durvasa e seus discípulos miraculosamente."
+            }
+        ],
+        "relationships": [
+            { "name": "Kunti", "relation": "Discípula favorita", "details": "Concedeu a ela o mantra que gerou os Pandavas." },
+            { "name": "Krishna", "relation": "O único que pode satisfazê-lo", "details": "Krishna neutralizou a potencial catástrofe de sua visita ao exílio." }
+        ],
+        "narrativeArc": {
+            "beginning": "O sábio temido que todos tentam agradar.",
+            "end": "Permanece eterno e irascível — mas seus atos, bons e maus, servem sempre ao Dharma maior."
+        },
+        "quotes": [
+            "\"Jovem, sua devoção me agrada. Receba este mantra — mas use-o com sabedoria.\""
+        ]
+    },
+    {
+        "id": "pradyumna",
+        "name": "Pradyumna",
+        "epithets": ["Filho de Krishna", "Reencarnação de Kamadeva", "Herói de Dwarka"],
+        "lineage": {
+            "father": "Krishna",
+            "mother": "Rukmini",
+            "clan": "Yadava",
+            "dynasty": "Lunar"
+        },
+        "affiliations": ["Dwarka", "Yadavas"],
+        "role": ["Príncipe Yadava", "Guerreiro", "Filho de Krishna"],
+        "attributes": {
+            "symbolic": ["Beleza de Kamadeva", "Amor e guerra", "Continuidade divina"],
+            "visual": ["Jovem guerreiro de beleza extraordinária como Krishna"]
+        },
+        "psychology": {
+            "virtues": ["Habilidade marcial herdada de Krishna", "Beleza e carisma", "Lealdade familiar"],
+            "flaws": ["Destino ligado à destruição dos Yadavas"],
+            "analysis": "Pradyumna é a reencarnação de Kamadeva (deus do amor), morto por Shiva e renascido como filho de Krishna. Sua história pessoal inclui ser raptado ao nascer pelo demônio Shambara, criado por sua esposa-serviçal Mayavati (reencarnação de Rati, esposa de Kamadeva) que eventualmente revelou sua identidade e se tornou sua esposa. Pradyumna é a prova de que amor e beleza renascem mesmo após a destruição."
+        },
+        "timeline": [
+            {
+                "title": "Rapto por Shambara",
+                "description": "Raptado dias após o nascimento pelo demônio Shambara, que o jogou ao mar. Um peixe o engoliu e foi pescado e cozido por Mayavati.",
+                "significance": "Karma cíclico: Shambara temia uma profecia de que Pradyumna o mataria."
+            },
+            {
+                "title": "Criação por Mayavati",
+                "description": "Mayavati (reencarnação de Rati) o cria na cozinha de Shambara, reconhece-o como seu marido de vida anterior e eventualmente revela sua identidade.",
+                "significance": "Uma história de amor que atravessa mortes — como a de Shikhandi/Amba."
+            },
+            {
+                "title": "Morte de Shambara e Retorno",
+                "description": "Mata Shambara e retorna a Dwarka com Mayavati, sendo reunido com Krishna e Rukmini.",
+                "significance": "O reencontro familiar é uma das cenas mais emotivas do ciclo Krishna."
+            }
+        ],
+        "relationships": [
+            { "name": "Krishna", "relation": "Pai", "details": "Filho amado que herda a beleza e força divina do pai." },
+            { "name": "Rukmini", "relation": "Mãe", "details": "Chorou sua ausência por anos após o rapto." },
+            { "name": "Mayavati/Rati", "relation": "Esposa (reencarnação)", "details": "A mulher que o criou e depois se revelou como sua esposa de vida anterior." },
+            { "name": "Aniruddha", "relation": "Filho", "details": "Seu filho, neto de Krishna, cuja captura causou a guerra de Dwarka." }
+        ],
+        "narrativeArc": {
+            "beginning": "O deus do amor renascido como filho de Krishna.",
+            "end": "Morre na guerra fratricida dos Yadavas, junto com quase todo seu clã."
+        },
+        "quotes": []
+    },
+    {
+        "id": "vrishasena",
+        "name": "Vrishasena",
+        "epithets": ["Filho de Karna", "Herói de Anga", "Vrishasena Kaurava"],
+        "lineage": {
+            "father": "Karna",
+            "mother": "Vrushali",
+            "clan": "Anga",
+            "dynasty": "Suta"
+        },
+        "affiliations": ["Anga", "Kauravas"],
+        "role": ["Príncipe de Anga", "Guerreiro Kaurava", "Filho leal de Karna"],
+        "attributes": {
+            "symbolic": ["Fidelidade ao pai", "Herança trágica"],
+            "visual": ["Guerreiro jovem de aspecto similar a Karna"]
+        },
+        "psychology": {
+            "virtues": ["Coragem herdada de Karna", "Lealdade inabalável", "Habilidade marcial notável"],
+            "flaws": ["Destino selado pelo lado que escolheu"],
+            "analysis": "Vrishasena carrega o peso de ser filho do herói mais trágico. Lutou bravamente na guerra, chegando ao ponto de enfrentar diretamente Arjuna. Quando foi morto, Karna viu o corpo do filho antes de seu próprio confronto final — adicionando mais uma camada de tragédia ao último dia de Karna. Vrishasena representa a geração seguinte sacrificada pelos erros e escolhas de seus pais."
+        },
+        "timeline": [
+            {
+                "title": "Batalha em Kurukshetra",
+                "description": "Luta com grande coragem no décimo sétimo dia de batalha, demonstrando habilidade comparável a seu pai Karna.",
+                "significance": "Prova que o talento de Karna era genuíno e hereditário."
+            },
+            {
+                "title": "Morte por Arjuna",
+                "description": "É morto por Arjuna no décimo sétimo dia, pouco antes da morte do próprio Karna.",
+                "significance": "Krishna apontou a morte de Vrishasena como karma: Karna havia sido cúmplice da morte de Abhimanyu enquanto estava desarmado."
+            }
+        ],
+        "relationships": [
+            { "name": "Karna", "relation": "Pai", "details": "Lutou ao lado do pai e morreu antes dele no mesmo dia." },
+            { "name": "Vrushali", "relation": "Mãe", "details": "A esposa fiel de Karna que perdeu filho e marido no mesmo dia." },
+            { "name": "Arjuna", "relation": "Matador", "details": "Krishna instruiu Arjuna a matar Vrishasena como retribuição pelo karma de Karna." }
+        ],
+        "narrativeArc": {
+            "beginning": "O filho orgulhoso do rei de Anga.",
+            "end": "Morto no mesmo dia que seu pai, na mesma batalha."
+        },
+        "quotes": []
+    },
+    {
+        "id": "chitrangada-manipuri",
+        "name": "Chitrangada",
+        "epithets": ["Princesa de Manipura", "Esposa de Arjuna", "Guerreira-Princesa"],
+        "lineage": {
+            "father": "Rei Chitravahana de Manipura",
+            "mother": "Desconhecida",
+            "clan": "Manipura",
+            "dynasty": "Manipura"
+        },
+        "affiliations": ["Manipura", "Pandavas"],
+        "role": ["Princesa Guerreira", "Esposa de Arjuna", "Mãe de Babhruvahana"],
+        "attributes": {
+            "symbolic": ["A guerreira que escolheu ser igual ao herói", "Amor que transforma"],
+            "visual": ["Guerreira armada de Manipura"]
+        },
+        "psychology": {
+            "virtues": ["Coragem guerreira excepcional para uma mulher", "Honestidade sobre sua natureza real", "Amor profundo e digno"],
+            "flaws": ["Criada como homem por necessidade dinástica, carrega identidade dividida"],
+            "analysis": "Chitrangada foi criada como filho (por necessidade de herdeiro guerreiro). Quando Arjuna chegou a Manipura em peregrinação, ela se apaixonou por ele — mas ele rejeitou a guerreira, querendo a mulher. Ela pediu ao deus Kamadeva para transformá-la em bela mulher por um ano. Após casar com Arjuna e engravidar, voltou à forma guerreira para governar o reino. Chitrangada é símbolo de uma mulher que negocia identidade entre dever e amor."
+        },
+        "timeline": [
+            {
+                "title": "Encontro com Arjuna",
+                "description": "Arjuna, em peregrinação, chega a Manipura e se apaixona pela princesa-guerreira. Ela sente o mesmo.",
+                "significance": "Um dos casamentos de Arjuna menos mencionados mas mais poeticamente complexos."
+            },
+            {
+                "title": "A Transformação por Kamadeva",
+                "description": "Pede ao deus Kamadeva que a transforme em mulher bela por um ano para que Arjuna a aceite.",
+                "significance": "A negociação entre identidade guerreira e feminilidade esperada."
+            },
+            {
+                "title": "Mãe de Babhruvahana",
+                "description": "Dá à luz Babhruvahana, que mais tarde se tornará rei de Manipura e, em um episódio, matará Arjuna com uma flecha mágica.",
+                "significance": "O filho que mata o próprio pai é ressuscitado pela cobra-joia de Ulupi."
+            }
+        ],
+        "relationships": [
+            { "name": "Arjuna", "relation": "Marido", "details": "O herói que a amou como mulher mas respeitou como guerreira." },
+            { "name": "Babhruvahana", "relation": "Filho", "details": "O rei-guerreiro de Manipura que matará Arjuna na campanha pós-guerra." },
+            { "name": "Ulupi", "relation": "Co-esposa", "details": "A naag-kanya que salvou Arjuna após Babhruvahana o matar." }
+        ],
+        "narrativeArc": {
+            "beginning": "A princesa-guerreira de Manipura criada como filho do rei.",
+            "end": "A mãe que permanece em Manipura enquanto Arjuna percorre o mundo."
+        },
+        "quotes": [
+            "\"Não sou o que pareço, nem o que você quer que eu seja. Sou ambos — e nenhum deles.\""
+        ]
+    },
+    {
+        "id": "dushyanta",
+        "name": "Dushyanta",
+        "epithets": ["Rei dos Purus", "Pai de Bharata", "Amante de Shakuntala"],
+        "lineage": {
+            "father": "Ilina",
+            "mother": "Rathantari",
+            "clan": "Puru",
+            "dynasty": "Lunar"
+        },
+        "affiliations": ["Reino Puru", "Hastinapura (antepassado)"],
+        "role": ["Rei dos Purus", "Pai do Imperador Bharata", "Personagem da Origem da Linhagem"],
+        "attributes": {
+            "symbolic": ["O amor esquecido", "Karma do anel perdido"],
+            "visual": ["Rei imponente em cena de caça"]
+        },
+        "psychology": {
+            "virtues": ["Poder real genuíno", "Amor por Shakuntala (quando lembrado)", "Reconhecimento da verdade"],
+            "flaws": ["Negação de Shakuntala por fraqueza política/social", "Incapacidade de defender o amor contra pressão social"],
+            "analysis": "Dushyanta representa o conflito entre amor e dever social. Ele amou genuinamente Shakuntala no ermitério de Kanva, casando-se com ela em casamento gandharva (por livre consentimento). Mas quando ela foi ao palácio, a maldição de Durvasa (causada pela distração de Shakuntala pensando em Dushyanta) fez com que ele a esquecesse. Ele a rejeitou publicamente. Apenas ao ver o anel que prova seu casamento, sua memória voltou. Bharata, o filho deles, se tornaria o maior imperador indiano e daria nome ao país."
+        },
+        "timeline": [
+            {
+                "title": "Encontro com Shakuntala",
+                "description": "Em caçada, entra no ermitério de Kanva e se apaixona por Shakuntala. Casam-se pelo rito gandharva.",
+                "significance": "O evento que gera Bharata, o maior imperador, que deu nome à Bharat (Índia)."
+            },
+            {
+                "title": "A Rejeição",
+                "description": "Quando Shakuntala vai ao palácio, a maldição de Durvasa o faz esquecer completamente. Ele a rejeita publicamente.",
+                "significance": "A injustiça que Shakuntala suporta tornou-se símbolo da mulher abandonada pelo amado."
+            },
+            {
+                "title": "O Anel e o Reconhecimento",
+                "description": "Ao ver o anel que provava o casamento (recuperado de um peixe), sua memória retorna e ele reconhece Shakuntala e o filho Bharata.",
+                "significance": "A reunião familiar que legitima a linhagem Kuru."
+            }
+        ],
+        "relationships": [
+            { "name": "Shakuntala", "relation": "Esposa", "details": "A mulher que amou, esqueceu e recuperou — a história mais bela do ciclo pré-Mahabharata." },
+            { "name": "Bharata", "relation": "Filho", "details": "O imperador cujo nome passou à Índia (Bharat). Antepassado de todos os personagens do épico." }
+        ],
+        "narrativeArc": {
+            "beginning": "O rei caçador que encontrou o amor mais puro num ermitério.",
+            "end": "O pai reconhecido que legou à civilização seu maior imperador."
+        },
+        "quotes": [
+            "\"Não te conheço, mulher. Vai embora do meu palácio.\" (sob a maldição)",
+            "\"Shakuntala... eu me lembro. Eu me lembro de tudo. Perdoa-me.\""
+        ]
+    },
+    {
+        "id": "vrushali",
+        "name": "Vrushali",
+        "epithets": ["Esposa de Karna", "A Fiel", "Rainha de Anga"],
+        "lineage": {
+            "father": "Desconhecido",
+            "mother": "Desconhecida",
+            "clan": "Suta",
+            "dynasty": "—"
+        },
+        "affiliations": ["Anga", "Família de Karna"],
+        "role": ["Esposa de Karna", "Rainha de Anga", "Mãe de Vrishasena e outros filhos"],
+        "attributes": {
+            "symbolic": ["Lealdade incondicional", "O amor que acompanha o herói trágico"],
+            "visual": ["Rainha simples e digna de Anga"]
+        },
+        "psychology": {
+            "virtues": ["Lealdade absoluta", "Amor sem condições", "Dignidade diante da tragédia"],
+            "flaws": ["Pouco poder narrativo — ela existe em função do marido"],
+            "analysis": "Vrushali é a sombra silenciosa que acompanha o personagem mais trágico do Mahabharata. Casada com Karna desde quando ele era apenas um cocheiro de classe baixa, permaneceu com ele através da ascensão ao trono de Anga, da guerra e da morte. Algumas versões dizem que ela se imolou na pira de Karna. Seu papel é pequeno no texto original mas simbólico: ela é a prova de que Karna era amado, mesmo que o mundo o rejeitasse."
+        },
+        "timeline": [
+            {
+                "title": "Casamento com Karna",
+                "description": "Casa-se com Karna quando ele ainda era filho do cocheiro Adhiratha.",
+                "significance": "A única que o amou antes de sua glória e fama."
+            },
+            {
+                "title": "Vida em Anga",
+                "description": "Torna-se rainha de Anga quando Duryodhana coroou Karna rei.",
+                "significance": "A ascensão de Karna foi também a dela — mas a tragédia seria maior."
+            }
+        ],
+        "relationships": [
+            { "name": "Karna", "relation": "Marido", "details": "Amou-o incondicionalmente, do anonimato à tragédia." },
+            { "name": "Vrishasena", "relation": "Filho", "details": "Perdeu marido e filho no mesmo dia de batalha." },
+            { "name": "Adhiratha", "relation": "Sogro", "details": "O pai adotivo de Karna, um homem simples e honesto." }
+        ],
+        "narrativeArc": {
+            "beginning": "A esposa jovem do filho do cocheiro.",
+            "end": "A viúva que perdeu tudo — filho e marido — no décimo sétimo dia."
+        },
+        "quotes": []
+    },
+    {
+        "id": "adhiratha",
+        "name": "Adhiratha",
+        "epithets": ["Pai Adotivo de Karna", "O Cocheiro de Kuru", "Radheya's Father"],
+        "lineage": {
+            "father": "Desconhecido",
+            "mother": "Desconhecida",
+            "clan": "Suta (cocheiros)",
+            "dynasty": "—"
+        },
+        "affiliations": ["Hastinapura", "Família de Karna"],
+        "role": ["Cocheiro de Hastinapura", "Pai Adotivo de Karna"],
+        "attributes": {
+            "symbolic": ["Amor paternal puro", "A nobreza sem título"],
+            "visual": ["Homem simples de classe cocheiro com filho glorioso"]
+        },
+        "psychology": {
+            "virtues": ["Amor paternal genuíno e incondicional", "Humildade", "Honestidade sobre as origens de Karna"],
+            "flaws": ["Sem defeitos morais notáveis — um homem simples e bom"],
+            "analysis": "Adhiratha representa o amor puro sem ambição. Encontrou o bebê Karna (enviado ao rio em uma cesta por Kunti) e o criou como filho. Seu amor por Karna era genuíno e completo, sem nenhuma expectativa de retorno. Karna nunca se envergonhou de seu pai adotivo, mesmo quando tornou-se rei. Em Kurukshetra, quando Bhima insulta Karna chamando-o de filho de cocheiro, é em nome da honra de Adhiratha que Karna sente a ferida mais profunda."
+        },
+        "timeline": [
+            {
+                "title": "Encontro com o Bebê Karna",
+                "description": "Encontra um bebê em uma cesta no rio Ganga, com armadura dourada e brincos. Leva para casa e o cria com sua esposa Radha.",
+                "significance": "O ato de amor que define toda a identidade de Karna como 'filho de Adhiratha'."
+            },
+            {
+                "title": "Presença no Torneio Kaurava",
+                "description": "Está presente quando Karna demonstra suas habilidades no torneio, e Bhima o humilha questionando sua linhagem.",
+                "significance": "A cena da humilhação de Karna é a mais formativa de sua psicologia."
+            }
+        ],
+        "relationships": [
+            { "name": "Karna", "relation": "Filho adotivo", "details": "O filho que encontrou no rio e amou como sangue." },
+            { "name": "Radha (esposa)", "relation": "Esposa", "details": "Juntos criaram Karna; por isso Karna é chamado 'Radheya' (filho de Radha)." }
+        ],
+        "narrativeArc": {
+            "beginning": "O cocheiro humilde que encontra um bebê glorioso.",
+            "end": "O pai que vê o filho tornar-se rei e herói, mas também vê sua morte."
+        },
+        "quotes": [
+            "\"Este bebê com armadura dourada é um dom dos deuses. Ele será meu filho.\""
+        ]
+    },
+    {
+        "id": "satyabhama",
+        "name": "Satyabhama",
+        "epithets": ["Satya", "Filha de Satrajit", "Segunda Esposa Principal de Krishna"],
+        "lineage": {
+            "father": "Satrajit",
+            "mother": "Desconhecida",
+            "clan": "Yadava",
+            "dynasty": "—"
+        },
+        "affiliations": ["Dwarka", "Yadavas"],
+        "role": ["Rainha de Dwarka", "Guerreira", "Parceira de Krishna em batalha"],
+        "attributes": {
+            "symbolic": ["Terra (elemento) — Satyabhama é uma encarnação de Bhumidevi", "Força e independência feminina"],
+            "visual": ["Guerreira bela em carruagem ao lado de Krishna"]
+        },
+        "psychology": {
+            "virtues": ["Coragem guerreira (lutou ao lado de Krishna)", "Amor apaixonado", "Determinação"],
+            "flaws": ["Ciúme de Rukmini", "Orgulho por sua beleza e posição"],
+            "analysis": "Satyabhama é a esposa de Krishna que escolheu ser parceira de batalha, não apenas consorte. Ela estava com Krishna quando ele matou o demônio Narakasura. Segundo o Syamantaka Parva, Krishna obteve o precioso joia Syamantaka para limpar seu nome do acusado roubo — e casou com Satyabhama como parte da resolução. Ela representa a mulher que quer participação ativa, não apenas amor passivo."
+        },
+        "timeline": [
+            {
+                "title": "Casamento após o Syamantaka",
+                "description": "Após Krishna resolver o mistério da joia Syamantaka e limpar seu nome, casa-se com Satyabhama, filha de Satrajit.",
+                "significance": "Um dos casamentos de Krishna com mais contexto político e narrativo."
+            },
+            {
+                "title": "Batalha contra Narakasura",
+                "description": "Acompanha Krishna na batalha contra o demônio Narakasura, participando ativamente do combate.",
+                "significance": "Demonstra que Satyabhama não é apenas consorte mas parceira de guerra."
+            }
+        ],
+        "relationships": [
+            { "name": "Krishna", "relation": "Marido", "details": "Amor apaixonado e participativo — ela quer estar ao lado dele em tudo." },
+            { "name": "Rukmini", "relation": "Co-esposa principal", "details": "Rivalidade amigável mas constante." },
+            { "name": "Satrajit", "relation": "Pai", "details": "Seu pai possuía a joia Syamantaka, catalisador de eventos trágicos." }
+        ],
+        "narrativeArc": {
+            "beginning": "A filha do guardião da joia Syamantaka.",
+            "end": "A guerreira que se imola na pira de Krishna após a destruição dos Yadavas."
+        },
+        "quotes": [
+            "\"Onde você vai, Krishna, eu vou também.\""
+        ]
     }
 ]

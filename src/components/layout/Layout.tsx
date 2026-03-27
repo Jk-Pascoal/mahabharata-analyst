@@ -2,8 +2,8 @@ import React from 'react';
 
 interface LayoutProps {
     children: React.ReactNode;
-    currentView: 'home' | 'library';
-    onNavigate: (view: 'home' | 'library') => void;
+    currentView: 'home' | 'library' | 'analytics';
+    onNavigate: (view: 'home' | 'library' | 'analytics') => void;
 }
 
 export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigate }) => {
@@ -17,16 +17,19 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigat
 
             {/* Main Content Wrapper */}
             <main className="relative z-10 px-4 py-8 md:px-8 max-w-7xl mx-auto">
-                {/* Header / Nav could go here */}
-                <header className="mb-12 text-center border-b border-epic-gold/20 pb-8">
-                    <h1 className="text-4xl md:text-6xl font-serif text-epic-gold tracking-widest uppercase drop-shadow-lg cursor-pointer" onClick={() => onNavigate('home')}>
-                        Mahabharata
+                {/* Header / Nav */}
+                <header className="mb-6 text-center border-b border-epic-gold/20 pb-4">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-epic-gold tracking-widest uppercase drop-shadow-xl cursor-pointer hover:text-white transition-colors duration-500 whitespace-nowrap" onClick={() => onNavigate('home')}>
+                        Zemo Cosmovisões
                     </h1>
-                    <p className="mt-2 text-epic-bronze font-serif italic text-lg opacity-80">
-                        Analista de Arquétipos Mitológicos
+                    <h2 className="mt-3 text-epic-bronze font-serif text-xl md:text-2xl tracking-widest uppercase opacity-90">
+                        Mahabharata
+                    </h2>
+                    <p className="mt-1.5 text-slate-400 font-light italic text-md opacity-80">
+                        Análises do Épico Mahabharata
                     </p>
 
-                    <nav className="flex justify-center gap-8 mt-8 text-sm tracking-widest uppercase">
+                    <nav className="flex justify-center gap-6 mt-6 text-sm tracking-widest uppercase">
                         <button
                             onClick={() => onNavigate('home')}
                             className={`pb-2 border-b-2 transition-all duration-300 ${currentView === 'home'
@@ -45,6 +48,15 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigat
                         >
                             Biblioteca
                         </button>
+                        <button
+                            onClick={() => onNavigate('analytics')}
+                            className={`pb-2 border-b-2 transition-all duration-300 ${currentView === 'analytics'
+                                    ? 'text-epic-gold border-epic-gold'
+                                    : 'text-slate-500 border-transparent hover:text-slate-300'
+                                }`}
+                        >
+                            Grafo Analítico
+                        </button>
                     </nav>
                 </header>
 
@@ -53,10 +65,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentView, onNavigat
                 {/* Footer */}
                 <footer className="mt-20 text-center text-slate-500 text-sm border-t border-slate-800 pt-8 pb-8">
                     <p>
-                        &copy; {new Date().getFullYear()} Mahabharata Analyst.
-                    </p>
-                    <p className="mt-2 text-epic-gold/60 font-serif tracking-widest text-xs uppercase">
-                        Zemo-Cosmovisões
+                        &copy; {new Date().getFullYear()} Zemo Cosmovisões. Todos os direitos reservados.
                     </p>
                 </footer>
             </main>

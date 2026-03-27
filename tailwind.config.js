@@ -8,16 +8,16 @@ export default {
     extend: {
       colors: {
         epic: {
-          gold: '#d4af37', // Metallic gold
-          bronze: '#cd7f32', // Bronze/Copper
-          deepBlue: '#0f172a', // Slate 900
-          darkRed: '#7f1d1d', // Red 900
-          parchment: '#f5f5dc', // Beige
+          gold: '#d4af37',
+          bronze: '#cd7f32',
+          deepBlue: '#0f172a',
+          darkRed: '#7f1d1d',
+          parchment: '#f5f5dc',
         },
-        fontFamily: {
-          serif: ['Cinzel', 'serif'],
-          sans: ['Lato', 'sans-serif'],
-        }
+      },
+      fontFamily: {
+        serif: ['Cinzel', 'serif'],
+        sans: ['Lato', 'sans-serif'],
       },
     },
   },

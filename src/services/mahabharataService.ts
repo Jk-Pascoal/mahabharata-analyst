@@ -64,6 +64,7 @@ export const mahabharataService = {
                     indexResults.push({
                         id: `idx-${key}`,
                         name: name,
+                        species: 'Desconhecido',
                         epithets: ['Mencionado no Texto'],
                         lineage: { father: 'Ver Texto', mother: 'Ver Texto', clan: '?', dynasty: '-' },
                         affiliations: ['Mahabharata'],
@@ -74,11 +75,17 @@ export const mahabharataService = {
                             flaws: [],
                             analysis: `Este personagem aparece em ${refs.length} passagens do épico. Embora não tenhamos um perfil psicológico detalhado arquivado, suas ações podem ser rastreadas diretamente nas seções indicadas abaixo.`
                         },
-                        timeline: refs.slice(0, 10).map((r: any, i: number) => ({
-                            title: `Aparição ${i + 1}`,
-                            description: `Encontrado em ${r.p}, Seção ${r.s} (${r.t})`,
-                            significance: 'Referência Textual'
-                        })),
+                        timeline: refs.slice(0, 10).map((r: any, i: number) => {
+                            const parvaName = r.p.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                            const sectionNum = r.s.replace('s', '');
+                            return {
+                                title: `Aparição ${i + 1}`,
+                                description: `Encontrado no livro ${parvaName}, Seção ${sectionNum}`,
+                                significance: 'Referência Textual',
+                                parvaSlug: r.p,
+                                sectionId: r.s
+                            };
+                        }),
                         relationships: [],
                         narrativeArc: { beginning: 'Mencionado nas escrituras.', end: '-' },
                         quotes: []
@@ -93,15 +100,41 @@ export const mahabharataService = {
     async getCharacterById(id: string): Promise<Character | undefined> {
         await delay(300);
         // 1. Check code
-        const char = characters.find(c => c.id === id);
-        if (char) return char;
+        let char = characters.find(c => c.id === id);
 
         // 2. Check full db
-        if (!this.fullDbCache) await this.loadResources();
+        if (!char) {
+            if (!this.fullDbCache) await this.loadResources();
+            if (this.fullDbCache) {
+                char = this.fullDbCache.find(c => c.id === id);
+            }
+        }
 
-        if (this.fullDbCache) {
-            const dbChar = this.fullDbCache.find(c => c.id === id);
-            if (dbChar) return dbChar;
+        if (char) {
+            // MERGE WTIH INDEX IF EXISTS!
+            if (!this.indexCache) await this.loadResources();
+            if (this.indexCache) {
+                 const searchKey = char.name.toLowerCase();
+                 const refs = this.indexCache[searchKey];
+                 
+                 if (refs && refs.length > 0) {
+                     const enrichedChar = JSON.parse(JSON.stringify(char));
+                     const textualTimelines = refs.slice(0, 15).map((r: any, i: number) => {
+                         const parvaName = r.p.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                         const sectionNum = r.s.replace('s', '');
+                         return {
+                             title: `Menção Textual ${i + 1}`,
+                             description: `Encontrado no livro ${parvaName}, Seção ${sectionNum}`,
+                             significance: 'Referência Textual (Acesso Rápido)',
+                             parvaSlug: r.p,
+                             sectionId: r.s
+                         };
+                     });
+                     enrichedChar.timeline = [...(enrichedChar.timeline || []), ...textualTimelines];
+                     return enrichedChar as Character;
+                 }
+            }
+            return char;
         }
 
         // 3. Check index
@@ -114,6 +147,7 @@ export const mahabharataService = {
                 return {
                     id: `idx-${key}`,
                     name: name,
+                    species: 'Desconhecido',
                     epithets: ['Personagem do Índice'],
                     lineage: { father: '?', mother: '?', clan: '?', dynasty: '?' },
                     affiliations: [],
@@ -124,11 +158,17 @@ export const mahabharataService = {
                         flaws: [],
                         analysis: `Referenciado ${refs.length} vezes nos textos sagrados.`,
                     },
-                    timeline: refs.slice(0, 20).map((r: any, i: number) => ({
-                        title: `Referência ${i + 1}`,
-                        description: `Encontrado em ${r.p}, ${r.t}`,
-                        significance: 'Fonte Original'
-                    })),
+                    timeline: refs.slice(0, 20).map((r: any, i: number) => {
+                            const parvaName = r.p.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                            const sectionNum = r.s.replace('s', '');
+                            return {
+                                title: `Referência ${i + 1}`,
+                                description: `Encontrado no livro ${parvaName}, Seção ${sectionNum}`,
+                                significance: 'Fonte Original',
+                                parvaSlug: r.p,
+                                sectionId: r.s
+                            };
+                    }),
                     relationships: [],
                     narrativeArc: { beginning: '?', end: '?' },
                     quotes: []
